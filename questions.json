@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Question 1?",
+        "options": [["Option A", 10], ["Option B", 10], ["Option C", 10]],
+        "correctAnswer": "Option A"
+    },
+    {
+        "question": "Question 2?",
+        "options": [["Option X", 10], ["Option Y", 10], ["Option Y", 10]],
+        "correctAnswer": "Option Z"
+    },
+    {
+        "question": "Question 3?",
+        "options": [["Option X", 10], ["Option Y", 10], ["Option Y", 10]],
+        "correctAnswer": "Option Z"
+    },
+    {
+        "question": "Question 4?",
+        "options": [["Option X", 10], ["Option Y", 10], ["Option Y", 10]],
+        "correctAnswer": "Option Z"
+    }
+]
