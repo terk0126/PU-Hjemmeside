@@ -16,25 +16,6 @@ function fetchQuestions() {
 fetchQuestions(); // Call the fetchQuestions function to load questions when the page loads.
 
 
-
-
-/*
-const questions = [
-    {
-        question: "Question 1?",
-        options: ["Option A", "Option B", "Option C"],
-        correctAnswer: "Option A"
-    },
-    {
-        question: "Question 2?",
-        options: ["Option X", "Option Y", "Option Z"],
-        correctAnswer: "Option Z"
-    },
-    // Add more questions here
-];
-*/
-
-
 let currentQuestionIndex = 0;
 let score = 0;
 let points = 0;
@@ -55,6 +36,14 @@ function displayQuestion() {
     `;
 }
 
+function updateScoreAndPoints() {
+    const scoreContainer = document.getElementById("score");
+    const pointsContainer = document.getElementById("points");
+
+    scoreContainer.textContent = score;
+    pointsContainer.textContent = points;
+}
+
 function checkAnswer() {
     const selectedOption = document.querySelector('input[name="option"]:checked');
 
@@ -65,12 +54,24 @@ function checkAnswer() {
     const userAnswer = selectedOption.value;
     const correctAnswer = questions[currentQuestionIndex].correctAnswer;
 
-    if (userAnswer === correctAnswer) {
-        score++;
-        points = points + questions[currentQuestionIndex].options[]
+    // Find the selected option's text and points
+    const selectedOptionData = questions[currentQuestionIndex].options.find(optionData => optionData[0] === userAnswer);
+
+    if (selectedOptionData) {
+        let answerPoints = selectedOptionData[1]; // Option points
+
+        if (userAnswer === correctAnswer) {
+            score++;
+            points += answerPoints;
+        }
     }
 
+    
+
+    
+
     currentQuestionIndex++;
+    updateScoreAndPoints()
 
     if (currentQuestionIndex < questions.length) {
         displayQuestion();
@@ -79,11 +80,24 @@ function checkAnswer() {
     }
 }
 
+
 function showResult() {
+
+
+    let maxPossiblePoints;
+    questions.forEach(question => {
+        console.log(question.options);
+        var correctOption = question.options.find(maxPointOption => {maxPointOption[0] === question.correctAnswer});
+        console.log(correctOption);
+        maxPossiblePoints += correctOption[1] 
+    });
+
+
+
     questionContainer.innerHTML = "";
     nextButton.style.display = "none";
-    resultContainer.innerHTML = `You scored ${score} out of ${questions.length}! \n And got `;
-}
+    resultContainer.innerHTML = `You scored ${score} out of ${questions.length}! \n And got ${points} out of ${maxPossiblePoints} points`;
+};
 
 nextButton.addEventListener("click", checkAnswer);
 displayQuestion(); // Display the first question

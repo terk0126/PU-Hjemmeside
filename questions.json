@@ -6,17 +6,17 @@
     },
     {
         "question": "Question 2?",
-        "options": [["Option X", 10], ["Option Y", 10], ["Option Y", 10]],
+        "options": [["Option X", 10], ["Option Y", 10], ["Option Z", 10]],
         "correctAnswer": "Option Z"
     },
     {
         "question": "Question 3?",
-        "options": [["Option X", 10], ["Option Y", 10], ["Option Y", 10]],
+        "options": [["Option X", 10], ["Option Y", 10], ["Option Z", 10]],
         "correctAnswer": "Option Z"
     },
     {
         "question": "Question 4?",
-        "options": [["Option X", 10], ["Option Y", 10], ["Option Y", 10]],
+        "options": [["Option X", 10], ["Option Y", 10], ["Option Z", 10]],
         "correctAnswer": "Option Z"
     }
 ]
