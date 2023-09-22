@@ -1,22 +1,642 @@
 [
     {
-        "question": "Question 1?",
-        "options": [["Option A", 10], ["Option B", 10], ["Option C", 10]],
-        "correctAnswer": "Option A"
+        "type": "multipleChoice",
+        "question": "Hvad er fotosyntese?",
+        "options": [["Processen med at omdanne sollys til energi", 10], ["Processen med at omdanne kuldioxid til oxygen", 10], ["Processen med at omdanne glukose til ATP", 10]],
+        "correctAnswer": "Processen med at omdanne sollys til energi"
     },
     {
-        "question": "Question 2?",
-        "options": [["Option X", 10], ["Option Y", 10], ["Option Z", 10]],
-        "correctAnswer": "Option Z"
+        "type": "multipleChoice",
+        "question": "Hvad er det kemiske symbol for vand?",
+        "options": [["H2O", 10], ["CO2", 10], ["O2", 10]],
+        "correctAnswer": "H2O"
     },
     {
-        "question": "Question 3?",
-        "options": [["Option X", 10], ["Option Y", 10], ["Option Z", 10]],
-        "correctAnswer": "Option Z"
+        "type": "multipleChoice",
+        "question": "Hvilken gas er mest almindelig i Jordens atmosfære?",
+        "options": [["Kvælstof", 10], ["Ilt", 10], ["Kuldioxid", 10]],
+        "correctAnswer": "Kvælstof"
     },
     {
-        "question": "Question 4?",
-        "options": [["Option X", 10], ["Option Y", 10], ["Option Z", 10]],
-        "correctAnswer": "Option Z"
-    }
+        "type": "multipleChoice",
+        "question": "Hvad er den mindste enhed af stof?",
+        "options": [["Atom", 10], ["Molekyle", 10], ["Celle", 10]],
+        "correctAnswer": "Atom"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er processen, hvor planter afgiver vanddamp til atmosfæren?",
+        "options": [["Transpiration", 10], ["Respiration", 10], ["Fotosyntese", 10]],
+        "correctAnswer": "Transpiration"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er den kemiske formel for glukose?",
+        "options": [["C6H12O6", 10], ["H2O", 10], ["CO2", 10]],
+        "correctAnswer": "C6H12O6"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er det største organ i menneskekroppen?",
+        "options": [["Hud", 10], ["Hjerte", 10], ["Lever", 10]],
+        "correctAnswer": "Hud"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er processen, hvor en organisme opretholder en stabil indre miljø?",
+        "options": [["Homeostase", 10], ["Metabolisme", 10], ["Respiration", 10]],
+        "correctAnswer": "Homeostase"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er funktionen af mitochondrier i en celle?",
+        "options": [["Producerer ATP", 10], ["Gemmer genetisk information", 10], ["Nedbryder cellulært affald", 10]],
+        "correctAnswer": "Producerer ATP"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er drivhuseffekten?",
+        "options": [["Fangsten af varme ved drivhusgasser i Jordens atmosfære", 10], ["Afkølingen af Jordens overflade", 10], ["Opvarmningen af oceanerne", 10]],
+        "correctAnswer": "Fangsten af varme ved drivhusgasser i Jordens atmosfære"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er hovedfunktionen af røde blodlegemer?",
+        "options": [["At transportere ilt til væv", 10], ["At bekæmpe infektioner", 10], ["At fordøje mad", 10]],
+        "correctAnswer": "At transportere ilt til væv"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er det kemiske symbol for guld?",
+        "options": [["Au", 10], ["Ag", 10], ["Fe", 10]],
+        "correctAnswer": "Au"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er processen, hvor en organisme omdanner mad til energi?",
+        "options": [["Fordøjelse", 10], ["Fotosyntese", 10], ["Respiration", 10]],
+        "correctAnswer": "Respiration"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad kaldes Jordens yderste lag?",
+        "options": [["Skorpen", 10], ["Mantlen", 10], ["Kernen", 10]],
+        "correctAnswer": "Skorpen"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er det kemiske symbol for kulstof?",
+        "options": [["C", 10], ["Ca", 10], ["Co", 10]],
+        "correctAnswer": "C"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er processen, hvor planter omdanner kuldioxid til oxygen og glukose?",
+        "options": [["Fotosyntese", 10], ["Respiration", 10], ["Transpiration", 10]],
+        "correctAnswer": "Fotosyntese"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er enheden for måling af elektrisk strøm?",
+        "options": [["Ampere", 10], ["Volt", 10], ["Ohm", 10]],
+        "correctAnswer": "Ampere"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er det kemiske symbol for natrium?",
+        "options": [["Na", 10], ["Ni", 10], ["Ne", 10]],
+        "correctAnswer": "Na"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er processen, hvor vand ændrer tilstand fra væske til gas på jordens overflade?",
+        "options": [["Fordampning", 10], ["Kondensation", 10], ["Nedbør", 10]],
+        "correctAnswer": "Fordampning"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er det kemiske symbol for ilt?",
+        "options": [["O", 10], ["O2", 10], ["H2O", 10]],
+        "correctAnswer": "O"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er den største planet i vores solsystem?",
+        "options": [["Jupiter", 10], ["Saturn", 10], ["Mars", 10]],
+        "correctAnswer": "Jupiter"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er processen, hvor sten nedbrydes i mindre partikler af naturlige kræfter?",
+        "options": [["Forvitring", 10], ["Erosion", 10], ["Sedimentering", 10]],
+        "correctAnswer": "Forvitring"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er det kemiske symbol for helium?",
+        "options": [["He", 10], ["H", 10], ["Ne", 10]],
+        "correctAnswer": "He"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er den mindste planet i vores solsystem?",
+        "options": [["Merkur", 10], ["Venus", 10], ["Jorden", 10]],
+        "correctAnswer": "Merkur"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er processen, hvor sten og sedimenter transporteres af vind, vand eller is?",
+        "options": [["Erosion", 10], ["Aflejring", 10], ["Sammentrækning", 10]],
+        "correctAnswer": "Erosion"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er det kemiske symbol for jern?",
+        "options": [["Fe", 10], ["I", 10], ["In", 10]],
+        "correctAnswer": "Fe"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er den største måne i vores solsystem?",
+        "options": [["Ganymede", 10], ["Titan", 10], ["Io", 10]],
+        "correctAnswer": "Ganymede"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er processen, hvor sten og sedimenter sætter sig i en ny placering?",
+        "options": [["Aflejring", 10], ["Erosion", 10], ["Sammentrækning", 10]],
+        "correctAnswer": "Aflejring"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er det kemiske symbol for kobber?",
+        "options": [["Cu", 10], ["Co", 10], ["Cr", 10]],
+        "correctAnswer": "Cu"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er den nærmeste stjerne til Jorden?",
+        "options": [["Solen", 10], ["Proxima Centauri", 10], ["Alpha Centauri", 10]],
+        "correctAnswer": "Solen"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er processen, hvor planter mister vanddamp gennem små åbninger i deres blade?",
+        "options": [["Transpiration", 10], ["Respiration", 10], ["Fotosyntese", 10]],
+        "correctAnswer": "Transpiration"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er det kemiske symbol for sølv?",
+        "options": [["Ag", 10], ["Au", 10], ["Al", 10]],
+        "correctAnswer": "Ag"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er processen, hvor sten og sedimenter komprimeres og forvandles til fast form?",
+        "options": [["Sammentrækning", 10], ["Erosion", 10], ["Aflejring", 10]],
+        "correctAnswer": "Sammentrækning"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er det kemiske symbol for bly?",
+        "options": [["Pb", 10], ["Li", 10], ["Pt", 10]],
+        "correctAnswer": "Pb"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er det kemiske symbol for kvælstof?",
+        "options": [["N", 10], ["Kv", 10], ["K", 10]],
+        "correctAnswer": "N"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er processen, hvor vanddamp falder fra atmosfæren til Jordens overflade?",
+        "options": [["Nedbør", 10], ["Fordampning", 10], ["Kondensation", 10]],
+        "correctAnswer": "Nedbør"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er det kemiske symbol for kalium?",
+        "options": [["K", 10], ["Kr", 10], ["P", 10]],
+        "correctAnswer": "K"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er det kemiske symbol for kuldioxid?",
+        "options": [["CO2", 10], ["CO", 10], ["C2O", 10]],
+        "correctAnswer": "CO2"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er processen, hvor planter og dyr udveksler gasser med atmosfæren?",
+        "options": [["Respiration", 10], ["Fotosyntese", 10], ["Transpiration", 10]],
+        "correctAnswer": "Respiration"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er det kemiske symbol for calcium?",
+        "options": [["Ca", 10], ["Cu", 10], ["Cl", 10]],
+        "correctAnswer": "Ca"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er det kemiske symbol for fosfor?",
+        "options": [["P", 10], ["Po", 10], ["Pt", 10]],
+        "correctAnswer": "P"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er processen, hvor vanddamp omdannes til flydende vand?",
+        "options": [["Kondensation", 10], ["Fordampning", 10], ["Nedbør", 10]],
+        "correctAnswer": "Kondensation"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er det kemiske symbol for svovl?",
+        "options": [["S", 10], ["Su", 10], ["Sr", 10]],
+        "correctAnswer": "S"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er det kemiske symbol for neon?",
+        "options": [["Ne", 10], ["Na", 10], ["Ni", 10]],
+        "correctAnswer": "Ne"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er processen, hvor sedimenter lægges ned på et nyt sted?",
+        "options": [["Sedimentering", 10], ["Erosion", 10], ["Aflejring", 10]],
+        "correctAnswer": "Sedimentering"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er det kemiske symbol for magnesium?",
+        "options": [["Mg", 10], ["Mn", 10], ["Mo", 10]],
+        "correctAnswer": "Mg"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er det kemiske symbol for klor?",
+        "options": [["Cl", 10], ["C", 10], ["Co", 10]],
+        "correctAnswer": "Cl"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er processen, hvor varme overføres gennem en væske (flydende eller gas) på grund af temperaturforskelle?",
+        "options": [["Konvektion", 10], ["Konduktion", 10], ["Stråling", 10]],
+        "correctAnswer": "Konvektion"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er det kemiske symbol for kalium?",
+        "options": [["K", 10], ["Kr", 10], ["P", 10]],
+        "correctAnswer": "K"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er det kemiske symbol for klor?",
+        "options": [["Cl", 10], ["C", 10], ["Co", 10]],
+        "correctAnswer": "Cl"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er processen, hvor varme overføres gennem en væske (flydende eller gas) på grund af temperaturforskelle?",
+        "options": [["Konvektion", 10], ["Konduktion", 10], ["Stråling", 10]],
+        "correctAnswer": "Konvektion"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er et eksempel på en vedvarende energikilde?",
+        "options": [["Solenergi", 10], ["Kul", 10], ["Olie", 10]],
+        "correctAnswer": "Solenergi"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvilken planet i vores solsystem kaldes 'Den Røde Planet'?",
+        "options": [["Mars", 10], ["Venus", 10], ["Jupiter", 10]],
+        "correctAnswer": "Mars"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er den kemiske formel for kuldioxid?",
+        "options": [["CO2", 10], ["CO", 10], ["CH4", 10]],
+        "correctAnswer": "CO2"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er den kemiske formel for metan?",
+        "options": [["CH4", 10], ["C2H6", 10], ["CO2", 10]],
+        "correctAnswer": "CH4"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er den kemiske formel for vanddamp?",
+        "options": [["H2O", 10], ["CO2", 10], ["O2", 10]],
+        "correctAnswer": "H2O"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er den kemiske formel for svovldioxid?",
+        "options": [["SO2", 10], ["H2SO4", 10], ["CO2", 10]],
+        "correctAnswer": "SO2"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er den kemiske formel for ammoniak?",
+        "options": [["NH3", 10], ["NO2", 10], ["CO2", 10]],
+        "correctAnswer": "NH3"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er den kemiske formel for salt?",
+        "options": [["NaCl", 10], ["KCl", 10], ["CaCl2", 10]],
+        "correctAnswer": "NaCl"
+    },
+    {
+        "type": "multipleChoice",
+        "question": "Hvad er Jordens største kontinent?",
+        "options": [["Asien", 10], ["Afrika", 10], ["Europa", 10]],
+        "correctAnswer": "Asien"
+    },
+    {
+        "type": "number",
+        "question": "Hvor mange planeter er der i vores solsystem?",
+        "correctAnswer": 8,
+        "point": 10,
+        "marginOfError": 10
+    },
+    {
+        "type": "number",
+        "question": "Hvad er hastigheden af ​​lyd i luft ved 25 °C?",
+        "correctAnswer": 343,
+        "point": 10,
+        "marginOfError": 10
+    },
+    {
+        "type": "number",
+        "question": "Hvor mange planeter er der i vores solsystem?",
+        "correctAnswer": 8,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvad er hastigheden af lyd i luft ved stuetemperatur?",
+        "correctAnswer": 343,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvor mange ben har en edderkop?",
+        "correctAnswer": 8,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvad er gennemsnitstemperaturen på Jorden?",
+        "correctAnswer": 14,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvor mange knogler er der i en voksen menneskekrop?",
+        "correctAnswer": 206,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvor mange dage tager det Jorden at rotere om sin akse?",
+        "correctAnswer": 1,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvad er den gennemsnitlige afstand mellem Jorden og Solen i kilometer?",
+        "correctAnswer": 149600000,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvad er accelerationen på grund af tyngdekraften på Jorden?",
+        "correctAnswer": 9.8,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvor mange procenter af Jordens overflade er dækket af vand?",
+        "correctAnswer": 71,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvor mange milliarder år gammel er universet?",
+        "correctAnswer": 13.8,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvor mange kromosomer har mennesker normalt?",
+        "correctAnswer": 46,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvad er tyngdekraften på Månen i forhold til tyngdekraften på Jorden?",
+        "correctAnswer": 0.17,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvor mange år tager det for Pluto at fuldføre en omløbstid om Solen?",
+        "correctAnswer": 248,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvad er den mindste enhed af et kemisk grundstof?",
+        "correctAnswer": 1,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvor mange måner har Jorden?",
+        "correctAnswer": 1,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvor mange kontinenter er der på Jorden?",
+        "correctAnswer": 7,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvor mange år tager det for Mars at fuldføre en omløbstid om Solen?",
+        "correctAnswer": 687,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvad er den gennemsnitlige hastighed af en ubelastet løber over 100 meter?",
+        "correctAnswer": 9.58,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvor mange liter vand skal man drikke dagligt for at opretholde hydrering?",
+        "correctAnswer": 2,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvor mange knogler er der i en voksen kattekrop?",
+        "correctAnswer": 230,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvor mange kilometer er der i en maratonløb?",
+        "correctAnswer": 42.195,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvor mange farver er der i et regnbue?",
+        "correctAnswer": 7,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvor mange dage tager det for Månen at fuldføre en omløbstid om Jorden?",
+        "correctAnswer": 27.3,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvor mange milliliter er der i en liter?",
+        "correctAnswer": 1000,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvor mange kvadratkilometer er der i Grønlands areal?",
+        "correctAnswer": 2166086,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvor mange år tager det for Jupiter at fuldføre en omløbstid om Solen?",
+        "correctAnswer": 11.9,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvor mange ben har en edderkop?",
+        "correctAnswer": 8,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvor mange stjerner er der i stjernebilledet Store Bjørn?",
+        "correctAnswer": 7,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvor mange kilometer er der fra Jorden til Månen?",
+        "correctAnswer": 384400,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvor mange år tager det for Saturn at fuldføre en omløbstid om Solen?",
+        "correctAnswer": 29.5,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvor mange planeter har solsystemet med kaldet 'de ydre planeter'?",
+        "correctAnswer": 4,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvor mange grader er der i en retvinklet trekant?",
+        "correctAnswer": 90,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvad er tyngdekraften på Saturn i forhold til tyngdekraften på Jorden?",
+        "correctAnswer": 1.07,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvad er verdenshavets gennemsnitlige dybde i meter?",
+        "correctAnswer": 3790,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvor mange arme har en blæksprutte?",
+        "correctAnswer": 8,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvad er den højeste temperatur, der nogensinde er målt på Jorden?",
+        "correctAnswer": 56.7,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvor mange dage tager det for Venus at fuldføre en omløbstid om Solen?",
+        "correctAnswer": 225,
+        "point": 10,
+        "marginOfError": 10
+      },
+      {
+        "type": "number",
+        "question": "Hvor mange grader er der i en cirkel?",
+        "correctAnswer": 360,
+        "point": 10,
+        "marginOfError": 10
+      }
 ]
