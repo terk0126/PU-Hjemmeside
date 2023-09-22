@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", function() {
+
 let questions = []; // Initialize an empty array to store questions.
 let currentQuestion; // Declare currentQuestion as a global variable
 let recentlyAskedQuestions = []; // Initialize an array to store recently asked questions.
@@ -6,7 +8,7 @@ fetchQuestions(); // Call the fetchQuestions function to load questions when the
 
 // Function to fetch questions from the JSON file.
 function fetchQuestions() {
-    fetch('questions.json')
+    fetch('../questions.json')
         .then(response => response.json())
         .then(data => {
             questions = data;
@@ -30,14 +32,22 @@ function getRandomQuestion() {
     let randomIndex;
     do {
         randomIndex = Math.floor(Math.random() * questions.length);
-    } while (recentlyAskedQuestions.includes(randomIndex) && recentlyAskedQuestions.length < 10);
+    } while (recentlyAskedQuestions.includes(randomIndex));
     recentlyAskedQuestions.push(randomIndex);
-    if (recentlyAskedQuestions.length > 10) {
+    if (recentlyAskedQuestions.length > 15) {
         recentlyAskedQuestions.shift(); // Remove the oldest question from the list.
     }
-    console.log(randomIndex);
+    console.log(`Spørgsmål ID: ${randomIndex}`);
     console.log(recentlyAskedQuestions);
     return questions[randomIndex];
+}
+
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
 }
 
 function displayQuestion() {
@@ -49,15 +59,16 @@ function displayQuestion() {
         return;
     }
 
-    console.log(currentQuestion.type);
-
     if (currentQuestion.type === "multipleChoice") {
         if (!currentQuestion.options || !Array.isArray(currentQuestion.options)) {
             console.error('Invalid options for multipleChoice question.');
             return;
         }
 
-        const optionsHTML = currentQuestion.options.map(option =>
+        const scrampledOptions = shuffleArray(currentQuestion.options)
+
+
+        const optionsHTML = scrampledOptions.map(option =>
             `<label><input type="radio" name="option" value="${option[0]}"> ${option[0]}</label><br>`
         ).join("");
 
@@ -104,6 +115,9 @@ function checkAnswer() {
         return;
     }
 
+    const correctResponse = ["Korrekt!", "green"] // [response text, color]
+    const incorrectResponse = ["Desværre forkert. Det korrekte svar var: " + currentQuestion.correctAnswer, "red"] // [response text, color]
+
     if (currentQuestion.type === "multipleChoice") {
         var selectedOption = document.querySelector('input[name="option"]:checked');
         if (!selectedOption) { return; } // Added null check
@@ -120,12 +134,15 @@ function checkAnswer() {
             if (userAnswer === correctAnswer) {
                 score++;
                 points += answerPoints;
+                displayAnswerFeedback(correctResponse);
+            } else {
+                displayAnswerFeedback(incorrectResponse);
             }
         }
 
     } else if (currentQuestion.type === "number") {
         var numberInput = document.querySelector('input[name="numberAnswer"]');
-        if (!numberInput) { return; } // Added null check
+        if (!numberInput.value) { return; } // Added null check
 
         const userAnswer = parseFloat(numberInput.value);
         const correctAnswer = parseFloat(currentQuestion.correctAnswer); // Use the global currentQuestion
@@ -136,6 +153,10 @@ function checkAnswer() {
                 // User's answer is within the acceptable margin of error
                 score++;
                 points += currentQuestion.point;
+                numberInput.classList.add('correct');
+                displayAnswerFeedback(correctResponse);
+            } else {
+                displayAnswerFeedback(incorrectResponse);
             }
         }
 
@@ -167,3 +188,19 @@ function getRandomItem(arr) {
     const item = arr[randomIndex];
     return item;
 }
+
+function displayAnswerFeedback([message, color]) {
+    const feedbackContainer = document.getElementById("answer-feedback");
+    feedbackContainer.textContent = message;
+    feedbackContainer.style.color = color;
+
+    // Automatically clear the feedback message after a delay (e.g., 2 seconds)
+    setTimeout(() => {
+        feedbackContainer.textContent = "";
+    }, 4000); // 4000 milliseconds (4 seconds)
+}
+
+
+
+
+});

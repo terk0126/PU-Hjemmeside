@@ -84,3 +84,29 @@ button:hover {
     border-width: 3px;
     border-radius: 20px;
 }
+
+/* Style the number input field */
+input[type="number"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+/* Style the input field when focused */
+input[type="number"]:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Style the input field for incorrect answers */
+input[type="number"].incorrect {
+    border-color: #FF0000; /* Red border for incorrect answers */
+}
+
+/* Style the input field for correct answers */
+input[type="number"].correct {
+    border-color: #00FF00; /* Green border for correct answers */
+}
