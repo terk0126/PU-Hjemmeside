@@ -67,12 +67,6 @@ button:hover {
     color: #007BFF;
 }
 
-.top-left {
-    position: absolute;
-    top: 10px; /* Adjust as needed to control the vertical position */
-    left: 10px; /* Adjust as needed to control the horizontal position */
-}
-
 #score-container {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 900;
@@ -83,6 +77,18 @@ button:hover {
     border-color: #333;
     border-width: 3px;
     border-radius: 20px;
+
+    position: absolute;
+    top: 10px; /* Adjust as needed to control the vertical position */
+    right: 10px; /* Adjust as needed to control the horizontal position */
+}
+
+
+
+#back-button {
+    position: absolute;
+    top: 10px; /* Adjust as needed to control the vertical position */
+    left: 10px; /* Adjust as needed to control the horizontal position */
 }
 
 /* Style the number input field */
@@ -194,4 +200,19 @@ input[type="number"]:focus {
   
   .slider.round:before {
     border-radius: 50%;
+  }
+
+  #back-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #back-button:hover {
+    background-color: #0056b3;
   }
