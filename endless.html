@@ -9,6 +9,11 @@
 
 </head>
 <body>
+
+    <div id="score-container" class="top-left">
+        Score: <span id="score">0</span> Points: <span id="points">0</span>
+    </div>
+
     <div class="quiz-container">
         <h1>STEM QUIZ</h1>
         <div id="question-container">
@@ -18,10 +23,19 @@
         <div id="result-container">
             <!-- Quiz results will be displayed here -->
         </div>
-        <div id="score-container" class="top-left">
-            Score: <span id="score">0</span> Points: <span id="points">0</span>
-        </div>
+        
         <div id="answer-feedback"></div>
     </div>
+
+    <!-- Rounded switch -->
+    <div id="switch-container">
+        <p>Notifikationer</p>
+        <label class="switch">
+            <input type="checkbox" id="switch" checked="checked">
+            <span class="slider round"></span>
+        </label>
+    </div>
+
+
 </body>
 </html>

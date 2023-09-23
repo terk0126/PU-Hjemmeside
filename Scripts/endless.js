@@ -115,8 +115,10 @@ function checkAnswer() {
         return;
     }
 
-    const correctResponse = ["Korrekt!", "green"] // [response text, color]
-    const incorrectResponse = ["Desværre forkert. Det korrekte svar var: " + currentQuestion.correctAnswer, "red"] // [response text, color]
+    const checkBoxNotification = document.getElementById("switch").checked;
+    const correctResponse = ["Korrekt!", "green", true] // [response text, color]
+    const incorrectResponse = ["Desværre forkert. Det korrekte svar var: " + currentQuestion.correctAnswer, "red", false] // [response text, color]
+
 
     if (currentQuestion.type === "multipleChoice") {
         var selectedOption = document.querySelector('input[name="option"]:checked');
@@ -134,9 +136,12 @@ function checkAnswer() {
             if (userAnswer === correctAnswer) {
                 score++;
                 points += answerPoints;
-                displayAnswerFeedback(correctResponse);
+
+
+                if (checkBoxNotification === true) {displayAnswerFeedback(correctResponse);}
             } else {
-                displayAnswerFeedback(incorrectResponse);
+                console.log(checkBoxNotification);
+                if (checkBoxNotification === true) {displayAnswerFeedback(incorrectResponse);}
             }
         }
 
@@ -154,9 +159,10 @@ function checkAnswer() {
                 score++;
                 points += currentQuestion.point;
                 numberInput.classList.add('correct');
-                displayAnswerFeedback(correctResponse);
+
+                if (checkBoxNotification === true) {displayAnswerFeedback(correctResponse);}
             } else {
-                displayAnswerFeedback(incorrectResponse);
+                if (checkBoxNotification === true) {displayAnswerFeedback(incorrectResponse);}
             }
         }
 
@@ -181,23 +187,22 @@ function showResult() {
 nextButton.addEventListener("click", checkAnswer);
 displayQuestion(); // Display the first question
 
-function getRandomItem(arr) {
-    // get random index value
-    const randomIndex = Math.floor(Math.random() * arr.length);
-    // get random item
-    const item = arr[randomIndex];
-    return item;
-}
-
-function displayAnswerFeedback([message, color]) {
+function displayAnswerFeedback([message, color, answerBoolean]) {
     const feedbackContainer = document.getElementById("answer-feedback");
-    feedbackContainer.textContent = message;
+
+    if (answerBoolean === true) {
+        feedbackContainer.innerHTML = `<img src="Images/Green_Checkmark.png" alt=""><br><p>${message}</p>`
+    } else {
+        feedbackContainer.innerHTML = `<img src="Images/Red_X.png" alt=""><br><p>${message}</p>`
+    }
+    
     feedbackContainer.style.color = color;
+    feedbackContainer.style.display = "block";
 
     // Automatically clear the feedback message after a delay (e.g., 2 seconds)
     setTimeout(() => {
-        feedbackContainer.textContent = "";
-    }, 4000); // 4000 milliseconds (4 seconds)
+        feedbackContainer.style.display = "none";
+    }, 2000); // 2000 milliseconds (2 seconds)
 }
 
 
