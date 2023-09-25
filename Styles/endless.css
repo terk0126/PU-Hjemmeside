@@ -72,11 +72,12 @@ button:hover {
     font-weight: 900;
     color: #fff;
     padding: 8px;
-    background-color: #72b1f5;
+    background-color: #007BFF;
     border-style: solid;
     border-color: #333;
     border-width: 3px;
     border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 
     position: absolute;
     top: 10px; /* Adjust as needed to control the vertical position */
