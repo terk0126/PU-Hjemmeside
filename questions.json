@@ -642,5 +642,460 @@
     "options": [["Pascal (Pa)", 10], ["Newton (N)", 10], ["Joule (J)", 10]],
     "correctAnswer": "Pascal (Pa)",
     "fag": ["fysik"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er den primære funktion af en transistor i elektronik?",
+    "options": [["At forstærke eller styre elektrisk strøm", 10], ["At opbevare data", 10], ["At producere lys", 10]],
+    "correctAnswer": "At forstærke eller styre elektrisk strøm",
+    "fag": ["teknologi", "engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med et flys black box?",
+    "options": [["At optage flydata for efterforskning ved ulykker", 10], ["At opbevare pilotens personlige ejendele", 10], ["At forbedre flyets aerodynamik", 10]],
+    "correctAnswer": "At optage flydata for efterforskning ved ulykker",
+    "fag": ["teknologi", "engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er den vigtigste funktion af en vandtætning i ingeniørarbejde?",
+    "options": [["At forhindre lækager eller indtrængen af vand", 10], ["At øge hastigheden af vandstrøm", 10], ["At reducere vægten af strukturen", 10]],
+    "correctAnswer": "At forhindre lækager eller indtrængen af vand",
+    "fag": ["engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er en CNC-maskine?",
+    "options": [["En computerstyret maskine til præcisionsbearbejdning", 10], ["En maskine til madlavning", 10], ["En skæremaskine til papir", 10]],
+    "correctAnswer": "En computerstyret maskine til præcisionsbearbejdning",
+    "fag": ["teknologi", "engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med et solcellepanel?",
+    "options": [["At omdanne sollys til elektrisk energi", 10], ["At opvarme vand", 10], ["At filtrere vand", 10]],
+    "correctAnswer": "At omdanne sollys til elektrisk energi",
+    "fag": ["teknologi", "engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er en 3D-printer primært designet til?",
+    "options": [["At producere tredimensionelle objekter lag-for-lag", 10], ["At lave flade tegninger", 10], ["At bage kager", 10]],
+    "correctAnswer": "At producere tredimensionelle objekter lag-for-lag",
+    "fag": ["teknologi", "engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvilken type ingeniør arbejder typisk med elektriske kredsløb og systemer?",
+    "options": [["Elektrisk ingeniør", 10], ["Bygningsingeniør", 10], ["Kemisk ingeniør", 10]],
+    "correctAnswer": "Elektrisk ingeniør",
+    "fag": ["engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med et ventilationsanlæg i bygninger?",
+    "options": [["At forbedre luftkvaliteten og cirkulere frisk luft", 10], ["At generere elektricitet", 10], ["At regulere vandstrømmen", 10]],
+    "correctAnswer": "At forbedre luftkvaliteten og cirkulere frisk luft",
+    "fag": ["engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er et almindeligt eksempel på en bionisk enhed?",
+    "options": [["En protese", 10], ["En smartphone", 10], ["En bil", 10]],
+    "correctAnswer": "En protese",
+    "fag": ["teknologi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med et elektronisk kontrolsystem i en bil?",
+    "options": [["At overvåge og styre forskellige aspekter af bilens ydeevne", 10], ["At afspille musik", 10], ["At brygge kaffe", 10]],
+    "correctAnswer": "At overvåge og styre forskellige aspekter af bilens ydeevne",
+    "fag": ["teknologi", "engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvilken type ingeniør arbejder typisk med design og konstruktion af broer og veje?",
+    "options": [["Civilingeniør", 10], ["Elektrisk ingeniør", 10], ["Softwareingeniør", 10]],
+    "correctAnswer": "Civilingeniør",
+    "fag": ["engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med et GPS-system?",
+    "options": [["At bestemme nøjagtig positionsinformation", 10], ["At sende tekstbeskeder", 10], ["At lave videokonferencer", 10]],
+    "correctAnswer": "At bestemme nøjagtig positionsinformation",
+    "fag": ["teknologi", "engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en vindmølle?",
+    "options": [["At omdanne vindenergi til elektrisk energi", 10], ["At male korn", 10], ["At rense luften", 10]],
+    "correctAnswer": "At omdanne vindenergi til elektrisk energi",
+    "fag": ["teknologi", "engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en radar i luftfart?",
+    "options": [["At opdage og spore andre fly", 10], ["At lave vejrprognoser", 10], ["At bage brød", 10]],
+    "correctAnswer": "At opdage og spore andre fly",
+    "fag": ["teknologi", "engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvilken type ingeniør arbejder typisk med udvikling af software og programmering?",
+    "options": [["Softwareingeniør", 10], ["Bygningsingeniør", 10], ["Kemisk ingeniør", 10]],
+    "correctAnswer": "Softwareingeniør",
+    "fag": ["engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en pacemaker i medicin?",
+    "options": [["At regulere hjertets rytme", 10], ["At måle blodtryk", 10], ["At lave røntgenbilleder", 10]],
+    "correctAnswer": "At regulere hjertets rytme",
+    "fag": ["teknologi", "engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med et varmevekslingssystem i et hjem?",
+    "options": [["At regulere temperaturen ved at udveksle varme mellem luft og væske", 10], ["At lave kaffe", 10], ["At generere elektricitet", 10]],
+    "correctAnswer": "At regulere temperaturen ved at udveksle varme mellem luft og væske",
+    "fag": ["engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med et geografisk informationssystem (GIS)?",
+    "options": [["At indsamle, analysere og visualisere geografiske data", 10], ["At sende e-mails", 10], ["At lave mad", 10]],
+    "correctAnswer": "At indsamle, analysere og visualisere geografiske data",
+    "fag": ["teknologi", "engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med et atomkraftværk?",
+    "options": [["At generere elektricitet ved at udnytte atomkerner", 10], ["At rense vand", 10], ["At bage brød", 10]],
+    "correctAnswer": "At generere elektricitet ved at udnytte atomkerner",
+    "fag": ["teknologi", "engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med et hydraulisk system?",
+    "options": [["At overføre kraft ved hjælp af væsketryk", 10], ["At skabe lys", 10], ["At lave te", 10]],
+    "correctAnswer": "At overføre kraft ved hjælp af væsketryk",
+    "fag": ["engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en telekommunikationssatellit?",
+    "options": [["At sende og modtage data og signaler over lange afstande", 10], ["At lave smykker", 10], ["At rense luften", 10]],
+    "correctAnswer": "At sende og modtage data og signaler over lange afstande",
+    "fag": ["teknologi", "engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med et geotermisk kraftværk?",
+    "options": [["At udnytte varmen fra jordens indre til at generere elektricitet", 10], ["At lave is", 10], ["At regulere vejrforholdene", 10]],
+    "correctAnswer": "At udnytte varmen fra jordens indre til at generere elektricitet",
+    "fag": ["teknologi", "engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en elektrisk generator?",
+    "options": [["At omdanne mekanisk energi til elektrisk energi", 10], ["At lave brød", 10], ["At lave te", 10]],
+    "correctAnswer": "At omdanne mekanisk energi til elektrisk energi",
+    "fag": ["engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvilken type ingeniør arbejder typisk med udvikling af flymotorer?",
+    "options": [["Aerospace ingeniør", 10], ["Elektrisk ingeniør", 10], ["Kemisk ingeniør", 10]],
+    "correctAnswer": "Aerospace ingeniør",
+    "fag": ["engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en røntgenmaskine i medicin?",
+    "options": [["At producere billeder af kroppens indre strukturer", 10], ["At måle blodtryk", 10], ["At lave mad", 10]],
+    "correctAnswer": "At producere billeder af kroppens indre strukturer",
+    "fag": ["teknologi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med et kredsløbskort (PCB) i elektronik?",
+    "options": [["At fungere som en platform til montering og forbindelse af elektroniske komponenter", 10], ["At spille musik", 10], ["At generere elektricitet", 10]],
+    "correctAnswer": "At fungere som en platform til montering og forbindelse af elektroniske komponenter",
+    "fag": ["teknologi", "engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvilken type ingeniør arbejder typisk med design og udvikling af software til styring af industrielle processer?",
+    "options": [["Procesingeniør", 10], ["Bygningsingeniør", 10], ["Kemisk ingeniør", 10]],
+    "correctAnswer": "Procesingeniør",
+    "fag": ["engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med et mikroskop i videnskaben?",
+    "options": [["At forstørre små objekter og gøre dem synlige", 10], ["At lave kaffe", 10], ["At regulere vejrforholdene", 10]],
+    "correctAnswer": "At forstørre små objekter og gøre dem synlige",
+    "fag": ["teknologi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med et vandrensningsanlæg?",
+    "options": [["At fjerne forurenende stoffer fra drikkevand", 10], ["At generere elektricitet", 10], ["At lave smykker", 10]],
+    "correctAnswer": "At fjerne forurenende stoffer fra drikkevand",
+    "fag": ["engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med et termografisk kamera?",
+    "options": [["At måle temperaturforskelle og finde varme- eller kuldebroer", 10], ["At sende tekstbeskeder", 10], ["At lave te", 10]],
+    "correctAnswer": "At måle temperaturforskelle og finde varme- eller kuldebroer",
+    "fag": ["teknologi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en satellitkommunikationssystem?",
+    "options": [["At muliggøre kommunikation over lange afstande ved hjælp af satellitter", 10], ["At male korn", 10], ["At regulere vejrforholdene", 10]],
+    "correctAnswer": "At muliggøre kommunikation over lange afstande ved hjælp af satellitter",
+    "fag": ["teknologi", "engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med et solur?",
+    "options": [["At vise tid baseret på solens position på himlen", 10], ["At brygge kaffe", 10], ["At rense luften", 10]],
+    "correctAnswer": "At vise tid baseret på solens position på himlen",
+    "fag": ["teknologi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en broklokke?",
+    "options": [["At advare om farlige vejrforhold til søfarende", 10], ["At lave mad", 10], ["At regulere vandstrømmen", 10]],
+    "correctAnswer": "At advare om farlige vejrforhold til søfarende",
+    "fag": ["engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en solvarmeindsamler?",
+    "options": [["At absorbere solenergi til opvarmning af vand eller luft", 10], ["At male korn", 10], ["At generere elektricitet", 10]],
+    "correctAnswer": "At absorbere solenergi til opvarmning af vand eller luft",
+    "fag": ["teknologi", "engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med et digitalt termometer?",
+    "options": [["At måle temperaturen med høj præcision og vise den på en digital skærm", 10], ["At sende e-mails", 10], ["At lave kaffe", 10]],
+    "correctAnswer": "At måle temperaturen med høj præcision og vise den på en digital skærm",
+    "fag": ["teknologi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en geografisk positionsenhed (GPS-enhed)?",
+    "options": [["At bestemme nøjagtig positionsinformation ved hjælp af satellitsignaler", 10], ["At lave is", 10], ["At regulere vejrforholdene", 10]],
+    "correctAnswer": "At bestemme nøjagtig positionsinformation ved hjælp af satellitsignaler",
+    "fag": ["teknologi", "engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en geiger-tæller?",
+    "options": [["At måle niveauer af ioniserende stråling", 10], ["At producere elektricitet", 10], ["At lave brød", 10]],
+    "correctAnswer": "At måle niveauer af ioniserende stråling",
+    "fag": ["teknologi", "engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en gasmaske?",
+    "options": [["At beskytte brugeren mod farlige luftbårne partikler og gasser", 10], ["At male korn", 10], ["At regulere vandstrømmen", 10]],
+    "correctAnswer": "At beskytte brugeren mod farlige luftbårne partikler og gasser",
+    "fag": ["teknologi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en vindtunnel i ingeniørarbejde?",
+    "options": [["At teste og analysere aerodynamikken af forskellige objekter", 10], ["At brygge kaffe", 10], ["At rense luften", 10]],
+    "correctAnswer": "At teste og analysere aerodynamikken af forskellige objekter",
+    "fag": ["engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvilken type ingeniør arbejder typisk med design og konstruktion af elektriske kredsløb og systemer?",
+    "options": [["Elektrisk ingeniør", 10], ["Bygningsingeniør", 10], ["Kemisk ingeniør", 10]],
+    "correctAnswer": "Elektrisk ingeniør",
+    "fag": ["engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med et rensningsanlæg til spildevand?",
+    "options": [["At rense spildevand for forurenende stoffer, inden det udledes i miljøet", 10], ["At lave smykker", 10], ["At generere elektricitet", 10]],
+    "correctAnswer": "At rense spildevand for forurenende stoffer, inden det udledes i miljøet",
+    "fag": ["engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en datacenter i informationsteknologi?",
+    "options": [["At lagre og håndtere store mængder data og applikationer", 10], ["At lave te", 10], ["At regulere vandstrømmen", 10]],
+    "correctAnswer": "At lagre og håndtere store mængder data og applikationer",
+    "fag": ["teknologi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med et supersonisk fly?",
+    "options": [["At flyve med en hastighed højere end lydens hastighed", 10], ["At male korn", 10], ["At rense luften", 10]],
+    "correctAnswer": "At flyve med en hastighed højere end lydens hastighed",
+    "fag": ["engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en katalysator i kemi og industriel produktion?",
+    "options": [["At fremskynde kemiske reaktioner uden at forbruge sig selv", 10], ["At producere elektricitet", 10], ["At brygge kaffe", 10]],
+    "correctAnswer": "At fremskynde kemiske reaktioner uden at forbruge sig selv",
+    "fag": ["kemi", "engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en polymer i kemisk videnskab?",
+    "options": [["At danne lange kæder af gentagne enheder, der har forskellige anvendelser", 10], ["At sende e-mails", 10], ["At lave brød", 10]],
+    "correctAnswer": "At danne lange kæder af gentagne enheder, der har forskellige anvendelser",
+    "fag": ["kemi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en fjernvarmeinstallation?",
+    "options": [["At levere varme til boliger og bygninger via rørledninger", 10], ["At male korn", 10], ["At regulere vejrforholdene", 10]],
+    "correctAnswer": "At levere varme til boliger og bygninger via rørledninger",
+    "fag": ["engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en biokemisk reaktion i biologi?",
+    "options": [["At omsætte kemikalier i levende organismer for at opretholde livet", 10], ["At lave is", 10], ["At generere elektricitet", 10]],
+    "correctAnswer": "At omsætte kemikalier i levende organismer for at opretholde livet",
+    "fag": ["biologi", "kemi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en bæredygtig konstruktion i ingeniørarbejde?",
+    "options": [["At minimere miljøpåvirkningen og ressourceforbruget", 10], ["At lave te", 10], ["At rense luften", 10]],
+    "correctAnswer": "At minimere miljøpåvirkningen og ressourceforbruget",
+    "fag": ["engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en biometrisk identifikationsmetode?",
+    "options": [["At identificere individer ved hjælp af deres unikke fysiske eller adfærdsmæssige karakteristika", 10], ["At bage kager", 10], ["At regulere vandstrømmen", 10]],
+    "correctAnswer": "At identificere individer ved hjælp af deres unikke fysiske eller adfærdsmæssige karakteristika",
+    "fag": ["teknologi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en hydroelektrisk dæmning?",
+    "options": [["At generere elektricitet ved at udnytte vandkraft", 10], ["At lave brød", 10], ["At regulere vejrforholdene", 10]],
+    "correctAnswer": "At generere elektricitet ved at udnytte vandkraft",
+    "fag": ["teknologi", "engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en stamcelle i biologi og medicin?",
+    "options": [["At udvikle sig til forskellige celletyper og bidrage til vævsgenkendelse og heling", 10], ["At lave mad", 10], ["At sende tekstbeskeder", 10]],
+    "correctAnswer": "At udvikle sig til forskellige celletyper og bidrage til vævsgenkendelse og heling",
+    "fag": ["biologi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en radardetektor i trafikstyring?",
+    "options": [["At opdage fartøjer og måle deres hastighed", 10], ["At male korn", 10], ["At regulere vandstrømmen", 10]],
+    "correctAnswer": "At opdage fartøjer og måle deres hastighed",
+    "fag": ["teknologi", "engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en kemisk reaktion i industriel produktion?",
+    "options": [["At omdanne råmaterialer til ønskede produkter", 10], ["At lave te", 10], ["At generere elektricitet", 10]],
+    "correctAnswer": "At omdanne råmaterialer til ønskede produkter",
+    "fag": ["kemi", "engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en robotarm i industriel automation?",
+    "options": [["At udføre præcise opgaver og manipulationer uden menneskelig indgriben", 10], ["At brygge kaffe", 10], ["At rense luften", 10]],
+    "correctAnswer": "At udføre præcise opgaver og manipulationer uden menneskelig indgriben",
+    "fag": ["teknologi", "engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en bølgeenergikonverter i teknologi og energiproduktion?",
+    "options": [["At omdanne bølgeenergi til elektrisk energi", 10], ["At lave is", 10], ["At regulere vejrforholdene", 10]],
+    "correctAnswer": "At omdanne bølgeenergi til elektrisk energi",
+    "fag": ["teknologi", "engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en kunstig intelligens-algoritme?",
+    "options": [["At udføre komplekse opgaver ved hjælp af maskinlæring og beslutningstagning", 10], ["At lave kaffe", 10], ["At regulere vandstrømmen", 10]],
+    "correctAnswer": "At udføre komplekse opgaver ved hjælp af maskinlæring og beslutningstagning",
+    "fag": ["teknologi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en geoteknisk undersøgelse i ingeniørarbejde?",
+    "options": [["At vurdere jordens egenskaber og stabilitet for bygningskonstruktioner", 10], ["At lave mad", 10], ["At sende tekstbeskeder", 10]],
+    "correctAnswer": "At vurdere jordens egenskaber og stabilitet for bygningskonstruktioner",
+    "fag": ["engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en proteinanalyse i biologi og bioteknologi?",
+    "options": [["At identificere og karakterisere proteiner for forsknings- og diagnostiske formål", 10], ["At generere elektricitet", 10], ["At lave brød", 10]],
+    "correctAnswer": "At identificere og karakterisere proteiner for forsknings- og diagnostiske formål",
+    "fag": ["biologi", "teknologi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med et klimakontrolsystem i bygninger?",
+    "options": [["At regulere temperatur, fugtighed og ventilation for komfort og energieffektivitet", 10], ["At brygge kaffe", 10], ["At regulere vandstrømmen", 10]],
+    "correctAnswer": "At regulere temperatur, fugtighed og ventilation for komfort og energieffektivitet",
+    "fag": ["engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en DNA-sekventering i bioteknologi og genetik?",
+    "options": [["At bestemme rækkefølgen af DNA-baser i en genetisk kode", 10], ["At lave te", 10], ["At sende e-mails", 10]],
+    "correctAnswer": "At bestemme rækkefølgen af DNA-baser i en genetisk kode",
+    "fag": ["biologi", "teknologi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en termoelektrisk generator i energiproduktion?",
+    "options": [["At omdanne varmeenergi direkte til elektricitet", 10], ["At male korn", 10], ["At regulere vejrforholdene", 10]],
+    "correctAnswer": "At omdanne varmeenergi direkte til elektricitet",
+    "fag": ["teknologi", "engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en kryogen tank i videnskab og teknologi?",
+    "options": [["At opbevare gasser og væsker ved meget lave temperaturer", 10], ["At lave is", 10], ["At sende tekstbeskeder", 10]],
+    "correctAnswer": "At opbevare gasser og væsker ved meget lave temperaturer",
+    "fag": ["teknologi", "engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en laserkirurgi i medicin og teknologi?",
+    "options": [["At udføre præcise kirurgiske indgreb ved hjælp af laserlys", 10], ["At lave kaffe", 10], ["At regulere vandstrømmen", 10]],
+    "correctAnswer": "At udføre præcise kirurgiske indgreb ved hjælp af laserlys",
+    "fag": ["teknologi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med et fotovoltaisk solcellepanel?",
+    "options": [["At omdanne sollys til elektrisk energi", 10], ["At generere elektricitet", 10], ["At lave brød", 10]],
+    "correctAnswer": "At omdanne sollys til elektrisk energi",
+    "fag": ["teknologi", "engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er formålet med en katalytisk konverter i bilindustrien?",
+    "options": [["At reducere emissionen af skadelige udstødningsgasser", 10], ["At brygge kaffe", 10], ["At regulere vejrforholdene", 10]],
+    "correctAnswer": "At reducere emissionen af skadelige udstødningsgasser",
+    "fag": ["teknologi", "engineering"]
   }
 ]
