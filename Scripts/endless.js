@@ -202,7 +202,7 @@ function displayAnswerFeedback([message, color, answerBoolean]) {
     // Automatically clear the feedback message after a delay (e.g., 2 seconds)
     setTimeout(() => {
         feedbackContainer.style.display = "none";
-    }, 1000); // 2000 milliseconds (2 seconds)
+    }, 2000); // 2000 milliseconds (2 seconds)
 }
 
 const backButton = document.getElementById("back-button");
