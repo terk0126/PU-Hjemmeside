@@ -112,8 +112,7 @@ input[type="number"]:focus {
 #answer-feedback {
     display: none;
     position: absolute;
-    width: 200px;
-    height: 300px;
+    width: 250px;
     object-fit: cover;
     left: 50%;
     top: 50%;
@@ -140,6 +139,10 @@ input[type="number"]:focus {
     position: absolute;
     left: 10px;
     bottom: 10px;
+}
+
+#switch-container > p {
+  color: white;
 }
 
 .switch {

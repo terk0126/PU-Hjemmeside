@@ -199,10 +199,16 @@ function displayAnswerFeedback([message, color, answerBoolean]) {
     feedbackContainer.style.color = color;
     feedbackContainer.style.display = "block";
 
-    // Automatically clear the feedback message after a delay (e.g., 2 seconds)
-    setTimeout(() => {
-        feedbackContainer.style.display = "none";
-    }, 1000); // 2000 milliseconds (2 seconds)
+    if (answerBoolean === true) {
+        setTimeout(() => {
+            feedbackContainer.style.display = "none";
+        }, 1000);
+    } else {
+        // Automatically clear the feedback message after a delay (e.g., 2 seconds)
+        setTimeout(() => {
+            feedbackContainer.style.display = "none";
+        }, 3000); // 2000 milliseconds (2 seconds)
+    }
 }
 
 const backButton = document.getElementById("back-button");
