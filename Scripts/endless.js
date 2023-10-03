@@ -19,6 +19,29 @@ function fetchQuestions() {
         });
 }
 
+// Function to get the value of a cookie by its name
+function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+}
+
+
+//eksempel på at få cookies
+/*
+// Retrieve the user progress from the cookie
+const userProgressCookie = getCookie("userProgress");
+
+if (userProgressCookie) {
+    const userProgress = JSON.parse(userProgressCookie);
+
+    // Now you can use userProgress to display their progress in your application
+    console.log(userProgress.level);
+    console.log(userProgress.xp);
+    console.log(userProgress.achievements);
+}
+*/
+
 
 var currentQuestionIndex = 0;
 let score = 0;
@@ -100,10 +123,23 @@ function displayQuestion() {
     }
 }
 
+/*
+    // Retrieve the user progress from the cookie
+    const userProgressCookie = getCookie("userProgress");
+
+    if (userProgressCookie) {
+        const userProgress = JSON.parse(userProgressCookie);
+
+        // Now you can use userProgress to display their progress in your application
+        console.log(userProgress.point);
+    }
+*/
 
 function updateScoreAndPoints() {
     const scoreContainer = document.getElementById("score");
     const pointsContainer = document.getElementById("points");
+
+    
 
     scoreContainer.textContent = score;
     pointsContainer.textContent = points;
