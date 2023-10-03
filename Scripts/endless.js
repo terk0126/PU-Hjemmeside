@@ -40,6 +40,10 @@ function getProgressFromCookie() {
             // Update score and points from the parsed object
             score = progressData.score;
             points = progressData.points;
+
+            console.log(score);
+            console.log(points);
+
         } catch (error) {
             console.error("Error parsing userProgress cookie:", error);
         }
@@ -101,12 +105,9 @@ function shuffleArray(array) {
     return array;
 }
 
-
 getProgressFromCookie();
 
 updateScoreAndPoints();
-
-
 
 
 
@@ -171,8 +172,8 @@ function updateScoreAndPoints() {
     pointsContainer.textContent = points;
 
     const userProgress = {
-        point: 0+points,
-        score: 0+score
+        points: points,
+        score: score
     }
 
     const userProgressJSON = JSON.stringify(userProgress)
