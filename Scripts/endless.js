@@ -23,8 +23,36 @@ function fetchQuestions() {
 function getCookie(name) {
     const value = `; ${document.cookie}`;
     const parts = value.split(`; ${name}=`);
-    if (parts.length === 2) return parts.pop().split(';').shift();
+    if (parts.length === 2) {
+        return parts.pop().split(';').shift();
+    }
+    return null; // Return null when the cookie is not found
 }
+
+function getProgressFromCookie() {
+    const userProgressCookie = getCookie("userProgress");
+    
+    if (userProgressCookie) {
+        try {
+            // Parse the JSON string from the cookie into an object
+            const progressData = JSON.parse(userProgressCookie);
+            
+            // Update score and points from the parsed object
+            score = progressData.score;
+            points = progressData.points;
+        } catch (error) {
+            console.error("Error parsing userProgress cookie:", error);
+        }
+    }
+}
+
+
+
+
+
+
+
+
 
 
 //eksempel på at få cookies
@@ -72,6 +100,16 @@ function shuffleArray(array) {
     }
     return array;
 }
+
+
+getProgressFromCookie();
+
+updateScoreAndPoints();
+
+
+
+
+
 
 function displayQuestion() {
     currentQuestion = getRandomQuestion(); // Assign the global currentQuestion variable
@@ -123,26 +161,24 @@ function displayQuestion() {
     }
 }
 
-/*
-    // Retrieve the user progress from the cookie
-    const userProgressCookie = getCookie("userProgress");
-
-    if (userProgressCookie) {
-        const userProgress = JSON.parse(userProgressCookie);
-
-        // Now you can use userProgress to display their progress in your application
-        console.log(userProgress.point);
-    }
-*/
 
 function updateScoreAndPoints() {
     const scoreContainer = document.getElementById("score");
     const pointsContainer = document.getElementById("points");
 
-    
 
     scoreContainer.textContent = score;
     pointsContainer.textContent = points;
+
+    const userProgress = {
+        point: 0+points,
+        score: 0+score
+    }
+
+    const userProgressJSON = JSON.stringify(userProgress)
+    
+    document.cookie = `userProgress=${userProgressJSON}; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/`;
+
 }
 
 function checkAnswer() {
