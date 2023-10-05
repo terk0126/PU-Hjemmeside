@@ -17,3 +17,17 @@ timedModeButton.addEventListener("click", () => {
 
 
 });
+
+function resetProgress() {
+
+    const userProgress = {
+        points: 0,
+        score: 0
+    }
+
+    userProgressJSON = JSON.stringify(userProgress);
+
+
+
+    document.cookie = `userProgress=${userProgressJSON}; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/`;
+}

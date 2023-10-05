@@ -48,3 +48,10 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+
+#reset-container {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
