@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-    const endTime = (new Date().getTime())+1000*60*2;
+    const endTime = (new Date().getTime())+1000*60;
 
     //console.log(endTime);
     var timeSpent = 0
