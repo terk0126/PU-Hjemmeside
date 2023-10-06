@@ -1489,5 +1489,315 @@
     "options": [["Nilen", 10], ["Amazonas", 10], ["Mississippi", 10]],
     "correctAnswer": "Nilen",
     "fag": ["geografi"]
+  },
+  {
+    "type": "number",
+    "question": "Hvor mange planeter er der i vores solsystem?",
+    "correctAnswer": 8,
+    "point": 10,
+    "fag": ["fysik"]
+},
+{
+    "type": "number",
+    "question": "Hvad er hastigheden af ​​lyd i luft ved 25 °C?",
+    "correctAnswer": 343,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["fysik"]
+},
+{
+    "type": "number",
+    "question": "Hvor mange planeter er der i vores solsystem?",
+    "correctAnswer": 8,
+    "point": 10,
+    "fag": ["fysik"]
+  },
+  {
+    "type": "number",
+    "question": "Hvad er hastigheden af lyd i luft ved stuetemperatur?",
+    "correctAnswer": 343,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["fysik"]
+  },
+  {
+    "type": "number",
+    "question": "Hvor mange ben har en edderkop?",
+    "correctAnswer": 8,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["biologi"]
+  },
+  {
+    "type": "number",
+    "question": "Hvad er gennemsnitstemperaturen på Jorden?",
+    "correctAnswer": 14,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["geografi","fysik"]
+  },
+  {
+    "type": "number",
+    "question": "Hvor mange knogler er der i en voksen menneskekrop?",
+    "correctAnswer": 206,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["biologi"]
+  },
+  {
+    "type": "number",
+    "question": "Hvor mange dage tager det Jorden at rotere om sin akse?",
+    "correctAnswer": 1,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["fysik"]
+  },
+  {
+    "type": "number",
+    "question": "Hvad er den gennemsnitlige afstand mellem Jorden og Solen i kilometer?",
+    "correctAnswer": 149600000,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["fysik"]
+  },
+  {
+    "type": "number",
+    "question": "Hvad er accelerationen på grund af tyngdekraften på Jorden?",
+    "correctAnswer": 9.8,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["fysik"]
+  },
+  {
+    "type": "number",
+    "question": "Hvor mange procenter af Jordens overflade er dækket af vand?",
+    "correctAnswer": 71,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["geografi"]
+  },
+  {
+    "type": "number",
+    "question": "Hvor mange milliarder år gammel er universet?",
+    "correctAnswer": 13.8,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["fysik"]
+  },
+  {
+    "type": "number",
+    "question": "Hvor mange kromosomer har mennesker normalt?",
+    "correctAnswer": 46,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["biologi"]
+  },
+  {
+    "type": "number",
+    "question": "Hvad er tyngdekraften på Månen i forhold til tyngdekraften på Jorden?",
+    "correctAnswer": 0.17,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["fysik"]
+  },
+  {
+    "type": "number",
+    "question": "Hvor mange år tager det for Pluto at fuldføre en omløbstid om Solen?",
+    "correctAnswer": 248,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["fysik"]
+  },
+  {
+    "type": "number",
+    "question": "Hvad er den mindste enhed af et kemisk grundstof?",
+    "correctAnswer": 1,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["kemi"]
+  },
+  {
+    "type": "number",
+    "question": "Hvor mange kontinenter er der på Jorden?",
+    "correctAnswer": 7,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["geografi"]
+  },
+  {
+    "type": "number",
+    "question": "Hvor mange år tager det for Mars at fuldføre en omløbstid om Solen?",
+    "correctAnswer": 687,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["fysik"]
+  },
+  {
+    "type": "number",
+    "question": "Hvad er den gennemsnitlige hastighed af en ubelastet løber over 100 meter?",
+    "correctAnswer": 9.58,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["biologi"]
+  },
+  {
+    "type": "number",
+    "question": "Hvor mange liter vand skal man drikke dagligt for at opretholde hydrering?",
+    "correctAnswer": 2,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["biologi"]
+  },
+  {
+    "type": "number",
+    "question": "Hvor mange knogler er der i en voksen kattekrop?",
+    "correctAnswer": 230,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["biologi"]
+  },
+  {
+    "type": "number",
+    "question": "Hvor mange kilometer er der i et maratonløb?",
+    "correctAnswer": 42.195,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["biologi"]
+  },
+  {
+    "type": "number",
+    "question": "Hvor mange farver er der i et regnbue?",
+    "correctAnswer": 7,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["fysik"]
+  },
+  {
+    "type": "number",
+    "question": "Hvor mange dage tager det for Månen at fuldføre en omløbstid om Jorden?",
+    "correctAnswer": 27.3,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["fysik"]
+  },
+  {
+    "type": "number",
+    "question": "Hvor mange milliliter er der i en liter?",
+    "correctAnswer": 1000,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["matematik"]
+  },
+  {
+    "type": "number",
+    "question": "Hvor mange kvadratkilometer er der i Grønlands areal?",
+    "correctAnswer": 2166086,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["geografi"]
+  },
+  {
+    "type": "number",
+    "question": "Hvor mange år tager det for Jupiter at fuldføre en omløbstid om Solen?",
+    "correctAnswer": 11.9,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["fysik"]
+  },
+  {
+    "type": "number",
+    "question": "Hvor mange ben har en edderkop?",
+    "correctAnswer": 8,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["biologi"]
+  },
+  {
+    "type": "number",
+    "question": "Hvor mange stjerner er der i stjernebilledet Store Bjørn?",
+    "correctAnswer": 7,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["fysik"]
+  },
+  {
+    "type": "number",
+    "question": "Hvor mange kilometer er der fra Jorden til Månen?",
+    "correctAnswer": 384400,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["fysik"]
+  },
+  {
+    "type": "number",
+    "question": "Hvor mange år tager det for Saturn at fuldføre en omløbstid om Solen?",
+    "correctAnswer": 29.5,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["fysik"]
+  },
+  {
+    "type": "number",
+    "question": "Hvor mange planeter har solsystemet med kaldet 'de ydre planeter'?",
+    "correctAnswer": 4,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["fysik"]
+  },
+  {
+    "type": "number",
+    "question": "Hvor mange grader er der i en retvinklet trekant?",
+    "correctAnswer": 180,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["matematik"]
+  },
+  {
+    "type": "number",
+    "question": "Hvad er tyngdekraften på Saturn i forhold til tyngdekraften på Jorden?",
+    "correctAnswer": 1.07,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["fysik"]
+  },
+  {
+    "type": "number",
+    "question": "Hvad er verdenshavets gennemsnitlige dybde i meter?",
+    "correctAnswer": 3790,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["geografi"]
+  },
+  {
+    "type": "number",
+    "question": "Hvor mange arme har en blæksprutte?",
+    "correctAnswer": 8,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["biologi"]
+  },
+  {
+    "type": "number",
+    "question": "Hvad er den højeste temperatur, der nogensinde er målt på Jorden?",
+    "correctAnswer": 56.7,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["geografi"]
+  },
+  {
+    "type": "number",
+    "question": "Hvor mange dage tager det for Venus at fuldføre en omløbstid om Solen?",
+    "correctAnswer": 225,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["fysik"]
+  },
+  {
+    "type": "number",
+    "question": "Hvor mange grader er der i en cirkel?",
+    "correctAnswer": 360,
+    "point": 10,
+    "marginOfError": 10,
+    "fag": ["matematik"]
   }
 ]
