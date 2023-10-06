@@ -198,6 +198,14 @@ document.addEventListener("DOMContentLoaded", function() {
     function updateScoreAndPoints() {
         const scoreContainer = document.getElementById("score");
         const pointsContainer = document.getElementById("points");
+
+        const highscoreContainer = document.getElementById("highscore");
+        const highpointsContainer = document.getElementById("highpoints");
+
+        highscoreContainer.innerText = Highscore
+        highpointsContainer.innerText = Highpoints
+        
+
     
     
         scoreContainer.textContent = score;
@@ -213,6 +221,9 @@ document.addEventListener("DOMContentLoaded", function() {
             const highscoreJSON = JSON.stringify(highscoreElement)
         
             document.cookie = `Highscore=${highscoreJSON}; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/`;
+
+            highscoreContainer.textContent = score;
+            highpointsContainer.textContent = points;
         } 
             
     
