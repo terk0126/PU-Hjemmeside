@@ -250,10 +250,16 @@ document.addEventListener("DOMContentLoaded", function() {
                     points += answerPoints;
     
     
-                    if (checkBoxNotification === true) {displayAnswerFeedback(correctResponse);}
+                    if (checkBoxNotification === true) {
+                        displayAnswerFeedback(correctResponse);
+                        displayQuestion()
+                    }
                 } else {
                     //console.log(checkBoxNotification);
-                    if (checkBoxNotification === true) {displayAnswerFeedback(incorrectResponse);}
+                    if (checkBoxNotification === true) {
+                        displayAnswerFeedback(incorrectResponse);
+                        displayQuestion()
+                    }
                 }
             }
     
@@ -272,9 +278,15 @@ document.addEventListener("DOMContentLoaded", function() {
                     points += currentQuestion.point;
                     numberInput.classList.add('correct');
     
-                    if (checkBoxNotification === true) {displayAnswerFeedback(correctResponse);}
+                    if (checkBoxNotification === true) {
+                        displayAnswerFeedback(correctResponse);
+                        displayQuestion()
+                    }
                 } else {
-                    if (checkBoxNotification === true) {displayAnswerFeedback(incorrectResponse);}
+                    if (checkBoxNotification === true) {
+                        displayAnswerFeedback(incorrectResponse);
+                        displayQuestion()
+                    }
                 }
             }
     
