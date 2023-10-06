@@ -1097,5 +1097,397 @@
     "options": [["At reducere emissionen af skadelige udstødningsgasser", 10], ["At brygge kaffe", 10], ["At regulere vejrforholdene", 10]],
     "correctAnswer": "At reducere emissionen af skadelige udstødningsgasser",
     "fag": ["teknologi", "engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er PI (π) i matematik?",
+    "options": [["En matematisk konstant", 10], ["En frugt", 10], ["En by", 10]],
+    "correctAnswer": "En matematisk konstant",
+    "fag": ["matematik"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er Newtons anden lov i fysik?",
+    "options": [["A = F/m", 10], ["E = mc^2", 10], ["F = ma", 10]],
+    "correctAnswer": "F = ma",
+    "fag": ["fysik"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er vandets kemiske formel?",
+    "options": [["H2O", 10], ["CO2", 10], ["O2", 10]],
+    "correctAnswer": "H2O",
+    "fag": ["kemi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er DNA's fulde navn i biologi?",
+    "options": [["Deoxyribonukleinsyre", 10], ["Ribonukleinsyre", 10], ["Proteinsyre", 10]],
+    "correctAnswer": "Deoxyribonukleinsyre",
+    "fag": ["biologi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er en algoritme inden for teknologi?",
+    "options": [["En træningsøvelse", 10], ["En opskrift på madlavning", 10], ["En sekvens af instruktioner", 10]],
+    "correctAnswer": "En sekvens af instruktioner",
+    "fag": ["teknologi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er en skruetrækker et eksempel på inden for engineering?",
+    "options": [["En transportmetode", 10], ["Et værktøj", 10], ["En måleenhed", 10]],
+    "correctAnswer": "Et værktøj",
+    "fag": ["engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er Jordens hovedbestanddel i geografi?",
+    "options": [["Vand", 10], ["Sand", 10], ["Metal", 10]],
+    "correctAnswer": "Vand",
+    "fag": ["geografi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er Euler's identitet i matematik?",
+    "options": [["En pyramideformel", 10], ["En kompleks eksponentialfunktion", 10], ["En pythagoreisk ligning", 10]],
+    "correctAnswer": "En kompleks eksponentialfunktion",
+    "fag": ["matematik"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er den grundlæggende enhed for elektrisk strøm i fysik?",
+    "options": [["Volt", 10], ["Ampere", 10], ["Ohm", 10]],
+    "correctAnswer": "Ampere",
+    "fag": ["fysik"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvilken gas udgør størstedelen af Jorden atmosfære?",
+    "options": [["Kuldioxid (CO2)", 10], ["Ilt (O2)", 10], ["Kvælstof (N2)", 10]],
+    "correctAnswer": "Kvælstof (N2)",
+    "fag": ["kemi", "geografi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvilket organ styrer kroppens vitale funktioner som vejrtrækning og hjerteslag i biologi?",
+    "options": [["Hjernen", 10], ["Maven", 10], ["Hjertet", 10]],
+    "correctAnswer": "Hjernen",
+    "fag": ["biologi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er machine learning inden for teknologi?",
+    "options": [["En type bil", 10], ["En metode til at lære computere at træffe beslutninger baseret på data", 10], ["En model af solsystemet", 10]],
+    "correctAnswer": "En metode til at lære computere at træffe beslutninger baseret på data",
+    "fag": ["teknologi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er et brodesign en del af inden for engineering?",
+    "options": [["Modeindustrien", 10], ["Civilingeniørarbejde", 10], ["Musikproduktion", 10]],
+    "correctAnswer": "Civilingeniørarbejde",
+    "fag": ["engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er verdens længste flod i geografi?",
+    "options": [["Amazonas", 10], ["Nilen", 10], ["Mississippi", 10]],
+    "correctAnswer": "Amazonas",
+    "fag": ["geografi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er kvadratroden af 16 i matematik?",
+    "options": [["2", 10], ["4", 10], ["8", 10]],
+    "correctAnswer": "4",
+    "fag": ["matematik"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er lysets hastighed i vakuum i fysik?",
+    "options": [["300.000 km/s", 10], ["100 m/s", 10], ["1.000.000 km/s", 10]],
+    "correctAnswer": "300.000 km/s",
+    "fag": ["fysik"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er kuldioxid (CO2) et eksempel på inden for kemi?",
+    "options": [["En grundstof", 10], ["En kemisk forbindelse", 10], ["En bakterie", 10]],
+    "correctAnswer": "En kemisk forbindelse",
+    "fag": ["kemi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er fotosyntese i biologi?",
+    "options": [["En form for fotografi", 10], ["En proces, hvor planter omdanner lysenergi til kemisk energi", 10], ["En medicinsk behandling", 10]],
+    "correctAnswer": "En proces, hvor planter omdanner lysenergi til kemisk energi",
+    "fag": ["biologi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er en computerchip inden for teknologi?",
+    "options": [["Et stykke chokolade", 10], ["Et elektronisk komponent, der udfører beregninger", 10], ["En bilreservedel", 10]],
+    "correctAnswer": "Et elektronisk komponent, der udfører beregninger",
+    "fag": ["teknologi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er en brobue en del af inden for engineering?",
+    "options": [["En bue til at skyde med", 10], ["En del af en brostruktur", 10], ["En hårstil", 10]],
+    "correctAnswer": "En del af en brostruktur",
+    "fag": ["engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er Jordens største ø i geografi?",
+    "options": [["Grønland", 10], ["Australien", 10], ["Madagaskar", 10]],
+    "correctAnswer": "Grønland",
+    "fag": ["geografi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er arealet af en cirkel med radius 5 i matematik?",
+    "options": [["5 kvadratmeter", 10], ["10 kvadratmeter", 10], ["25π kvadratmeter", 10]],
+    "correctAnswer": "25π kvadratmeter",
+    "fag": ["matematik"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er tyngdekraften i fysik?",
+    "options": [["En mystisk kraft", 10], ["En kraft, der trækker objekter mod hinanden på grund af deres masse", 10], ["En elektromagnetisk kraft", 10]],
+    "correctAnswer": "En kraft, der trækker objekter mod hinanden på grund af deres masse",
+    "fag": ["fysik"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvilken gas bruges i en ballon for at få den til at svæve?",
+    "options": [["Ilt (O2)", 10], ["Kvælstof (N2)", 10], ["Helium (He)", 10]],
+    "correctAnswer": "Helium (He)",
+    "fag": ["kemi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er evolutionsteorien i biologi?",
+    "options": [["En teori om rumfart", 10], ["En teori om, hvordan arter udvikler sig over tid", 10], ["En teori om politik", 10]],
+    "correctAnswer": "En teori om, hvordan arter udvikler sig over tid",
+    "fag": ["biologi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er en robot i teknologi?",
+    "options": [["En type dyr", 10], ["En maskine, der kan udføre opgaver automatisk", 10], ["En form for transportmiddel", 10]],
+    "correctAnswer": "En maskine, der kan udføre opgaver automatisk",
+    "fag": ["teknologi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er en ingeniør i engineering?",
+    "options": [["En person, der laver mad", 10], ["En person, der designer og skaber komplekse systemer og strukturer", 10], ["En person, der arbejder i en skov", 10]],
+    "correctAnswer": "En person, der designer og skaber komplekse systemer og strukturer",
+    "fag": ["engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er verdens største ørken i geografi?",
+    "options": [["Sahara-ørkenen", 10], ["Atacama-ørkenen", 10], ["Gobi-ørkenen", 10]],
+    "correctAnswer": "Sahara-ørkenen",
+    "fag": ["geografi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er 3 + 5 i matematik?",
+    "options": [["7", 10], ["8", 10], ["10", 10]],
+    "correctAnswer": "8",
+    "fag": ["matematik"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er elektrisk strøm målt i i fysik?",
+    "options": [["Meter (m)", 10], ["Ampere (A)", 10], ["Sekund (s)", 10]],
+    "correctAnswer": "Ampere (A)",
+    "fag": ["fysik"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er rust et eksempel på i kemi?",
+    "options": [["En metal", 10], ["En kemisk reaktion", 10], ["En korrosion af jern", 10]],
+    "correctAnswer": "En korrosion af jern",
+    "fag": ["kemi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er biologisk mangfoldighed i biologi?",
+    "options": [["Antallet af mennesker i verden", 10], ["Variationen af livsformer i et økosystem", 10], ["En medicinsk tilstand", 10]],
+    "correctAnswer": "Variationen af livsformer i et økosystem",
+    "fag": ["biologi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er en smartphone inden for teknologi?",
+    "options": [["En bog", 10], ["En elektronisk enhed med telefonfunktioner", 10], ["En form for sko", 10]],
+    "correctAnswer": "En elektronisk enhed med telefonfunktioner",
+    "fag": ["teknologi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er en bygning ingeniør i engineering?",
+    "options": [["En person, der reparerer biler", 10], ["En person, der designer og konstruerer bygninger", 10], ["En person, der laver mad", 10]],
+    "correctAnswer": "En person, der designer og konstruerer bygninger",
+    "fag": ["engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er verdens højeste bjerg i geografi?",
+    "options": [["Mount Everest", 10], ["Kilimanjaro", 10], ["Andesbjergene", 10]],
+    "correctAnswer": "Mount Everest",
+    "fag": ["geografi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er 9 kvadrat i matematik?",
+    "options": [["3", 10], ["6", 10], ["81", 10]],
+    "correctAnswer": "81",
+    "fag": ["matematik"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er accelerationen på grund af tyngdekraften i fysik?",
+    "options": [["9,8 m/s^2", 10], ["2 m/s^2", 10], ["5 km/h", 10]],
+    "correctAnswer": "9,8 m/s^2",
+    "fag": ["fysik"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er et grundstof i kemi?",
+    "options": [["En kemisk forbindelse", 10], ["En type mad", 10], ["En ren substans, der ikke kan nedbrydes i enklere stoffer", 10]],
+    "correctAnswer": "En ren substans, der ikke kan nedbrydes i enklere stoffer",
+    "fag": ["kemi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er gener i biologi?",
+    "options": [["En slags værktøj", 10], ["De bøger, vi læser", 10], ["De arvemæssige instruktioner i vores DNA", 10]],
+    "correctAnswer": "De arvemæssige instruktioner i vores DNA",
+    "fag": ["biologi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er virtual reality (VR) inden for teknologi?",
+    "options": [["En form for fugtigt vejr", 10], ["En computersimuleret virkelighed, hvor brugeren kan interagere med en virtuel verden", 10], ["En type bil", 10]],
+    "correctAnswer": "En computersimuleret virkelighed, hvor brugeren kan interagere med en virtuel verden",
+    "fag": ["teknologi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er en brostruktur inden for engineering?",
+    "options": [["En type legetøj", 10], ["En konstruktion, der forbinder to punkter over en forhindring som en flod eller en dal", 10], ["En type musikinstrument", 10]],
+    "correctAnswer": "En konstruktion, der forbinder to punkter over en forhindring som en flod eller en dal",
+    "fag": ["engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er verdens dybeste oceanrende i geografi?",
+    "options": [["Stillehavet", 10], ["Atlanterhavet", 10], ["Det Indiske Ocean", 10]],
+    "correctAnswer": "Stillehavet",
+    "fag": ["geografi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er kvadratroden af 25 i matematik?",
+    "options": [["2", 10], ["5", 10], ["10", 10]],
+    "correctAnswer": "5",
+    "fag": ["matematik"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er en elektrisk leder i fysik?",
+    "options": [["Et stykke træ", 10], ["En materiale, der tillader strøm at passere igennem det", 10], ["En type mad", 10]],
+    "correctAnswer": "En materiale, der tillader strøm at passere igennem det",
+    "fag": ["fysik"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er en syre i kemi?",
+    "options": [["En type base", 10], ["En kemisk forbindelse, der kan donere en proton", 10], ["En type fisk", 10]],
+    "correctAnswer": "En kemisk forbindelse, der kan donere en proton",
+    "fag": ["kemi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er fotosyntese i biologi?",
+    "options": [["En type fotografi", 10], ["En proces, hvor planter omdanner lysenergi til kemisk energi", 10], ["En type film", 10]],
+    "correctAnswer": "En proces, hvor planter omdanner lysenergi til kemisk energi",
+    "fag": ["biologi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er en app inden for teknologi?",
+    "options": [["En type fugl", 10], ["En softwareapplikation til mobiltelefoner og computere", 10], ["En type bil", 10]],
+    "correctAnswer": "En softwareapplikation til mobiltelefoner og computere",
+    "fag": ["teknologi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er en bygning arkitekt i engineering?",
+    "options": [["En person, der bygger broer", 10], ["En person, der designer bygninger og deres udseende", 10], ["En person, der laver mad", 10]],
+    "correctAnswer": "En person, der designer bygninger og deres udseende",
+    "fag": ["engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er verdens største hav i geografi?",
+    "options": [["Atlanterhavet", 10], ["Stillehavet", 10], ["Det Indiske Ocean", 10]],
+    "correctAnswer": "Stillehavet",
+    "fag": ["geografi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er 12 divideret med 3 i matematik?",
+    "options": [["2", 10], ["3", 10], ["4", 10]],
+    "correctAnswer": "4",
+    "fag": ["matematik"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er lydens hastighed i luft i fysik?",
+    "options": [["300.000 km/s", 10], ["340 m/s", 10], ["1.000.000 km/s", 10]],
+    "correctAnswer": "340 m/s",
+    "fag": ["fysik"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er vand en kemisk forbindelse af i kemi?",
+    "options": [["Hydrogen og ilt", 10], ["Kvælstof og kuldioxid", 10], ["Kulstof og ilt", 10]],
+    "correctAnswer": "Hydrogen og ilt",
+    "fag": ["kemi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er en celle i biologi?",
+    "options": [["En enhed i et fængsel", 10], ["Den mindste levende enhed i en organisme", 10], ["En elektrisk enhed", 10]],
+    "correctAnswer": "Den mindste levende enhed i en organisme",
+    "fag": ["biologi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er kunstig intelligens (AI) inden for teknologi?",
+    "options": [["En type maling", 10], ["En computersystem, der kan udføre opgaver, der normalt kræver menneskelig intelligens", 10], ["En type sportsudstyr", 10]],
+    "correctAnswer": "En computersystem, der kan udføre opgaver, der normalt kræver menneskelig intelligens",
+    "fag": ["teknologi"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er en konstruktionsplan inden for engineering?",
+    "options": [["En plan for at bygge et telt", 10], ["En detaljeret tegning og beskrivelse af, hvordan en konstruktion skal bygges", 10], ["En plan for at lave mad", 10]],
+    "correctAnswer": "En detaljeret tegning og beskrivelse af, hvordan en konstruktion skal bygges",
+    "fag": ["engineering"]
+  },
+  {
+    "type": "multipleChoice",
+    "question": "Hvad er verdens længste flod i geografi?",
+    "options": [["Nilen", 10], ["Amazonas", 10], ["Mississippi", 10]],
+    "correctAnswer": "Nilen",
+    "fag": ["geografi"]
   }
 ]

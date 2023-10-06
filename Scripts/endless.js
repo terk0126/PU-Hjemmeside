@@ -41,8 +41,8 @@ function getProgressFromCookie() {
             score = progressData.score;
             points = progressData.points;
 
-            console.log(score);
-            console.log(points);
+            //console.log(score);
+            //console.log(points);
 
         } catch (error) {
             console.error("Error parsing userProgress cookie:", error);
@@ -68,9 +68,9 @@ if (userProgressCookie) {
     const userProgress = JSON.parse(userProgressCookie);
 
     // Now you can use userProgress to display their progress in your application
-    console.log(userProgress.level);
-    console.log(userProgress.xp);
-    console.log(userProgress.achievements);
+    //console.log(userProgress.level);
+    //console.log(userProgress.xp);
+    //console.log(userProgress.achievements);
 }
 */
 
@@ -92,8 +92,8 @@ function getRandomQuestion() {
     if (recentlyAskedQuestions.length > 15) {
         recentlyAskedQuestions.shift(); // Remove the oldest question from the list.
     }
-    console.log(`Spørgsmål ID: ${randomIndex}`);
-    console.log(recentlyAskedQuestions);
+    //console.log(`Spørgsmål ID: ${randomIndex}`);
+    //console.log(recentlyAskedQuestions);
     return questions[randomIndex];
 }
 
@@ -114,7 +114,7 @@ updateScoreAndPoints();
 
 function displayQuestion() {
     currentQuestion = getRandomQuestion(); // Assign the global currentQuestion variable
-    console.log(currentQuestion);
+    //console.log(currentQuestion);
 
     if (!currentQuestion) {
         console.error('No currentQuestion found.');
@@ -213,7 +213,7 @@ function checkAnswer() {
 
                 if (checkBoxNotification === true) {displayAnswerFeedback(correctResponse);}
             } else {
-                console.log(checkBoxNotification);
+                //console.log(checkBoxNotification);
                 if (checkBoxNotification === true) {displayAnswerFeedback(incorrectResponse);}
             }
         }

@@ -20,8 +20,14 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         }
 
-        console.log(chosenSubjects);
-        console.log(`menuFagQuiz.html?subjects=${chosenSubjects.join(",")}`);
+        if (chosenSubjects.length === 0) {
+            alert("Du skal vælge mindst et emne");
+            return;
+        } 
+        
+
+        //console.log(chosenSubjects);
+        //console.log(`menuFagQuiz.html?subjects=${chosenSubjects.join(",")}`);
 
         window.location.href = `menuFagQuiz.html?subjects=${chosenSubjects.join(",")}`;
     });

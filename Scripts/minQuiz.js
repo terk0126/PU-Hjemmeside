@@ -1,26 +1,75 @@
-var subjects = (window.location.href.split('?').pop()).slice(9).split(",");
-//console.log(subjects);
-
 document.addEventListener("DOMContentLoaded", function() {
 
     let questions = []; // Initialize an empty array to store questions.
     let currentQuestion; // Declare currentQuestion as a global variable
     let recentlyAskedQuestions = []; // Initialize an array to store recently asked questions.
-    
+
+    let Highscore = 0; // Initialize Highscore with a default value
+    let Highpoints = 0; // Initialize Highpoints with a default value
+
+    const timerMin = document.getElementById("min")
+    const timerSek = document.getElementById("sek")
+
+    var amountAnswered = 0;
+
+
+
+    const endTime = (new Date().getTime())+1000*60*2;
+
+    //console.log(endTime);
+    var timeSpent = 0
+    var timeRamaining = 0
+
+
+    var interval = setInterval(() => {
+        var timeNow = new Date().getTime();
+
+        var timeRamaining = endTime-timeNow
+
+        if (timeRamaining < 0) {
+            timerMin.innerHTML = 0
+            timerSek.innerHTML = 0 
+
+            showResult()
+
+        } else {
+            var minCalc = Math.floor((timeRamaining/1000)/60)
+
+            var sekCalc = Math.floor((((timeRamaining/1000)/60 - minCalc)*60)*1000)/1000
+            //console.log(timeRamaining); 
+
+            timerMin.innerHTML = minCalc
+            timerSek.innerHTML = sekCalc
+        }
+
+        
+
+        if (endTime-timeNow < 0) {
+            clearInterval(interval)
+        }
+    }, 75);    
+
+
+
+
+
+
+
+
     fetchQuestions(); // Call the fetchQuestions function to load questions when the page loads.
     
+    // Function to fetch questions from the JSON file.
     function fetchQuestions() {
         fetch('../questions.json')
             .then(response => response.json())
             .then(data => {
-                questions = data.filter(item => item.fag.some(item => subjects.includes(item)));
+                questions = data;
                 displayQuestion();
             })
             .catch(error => {
                 console.error('Error fetching questions:', error);
             });
     }
-    
     
     // Function to get the value of a cookie by its name
     function getCookie(name) {
@@ -32,17 +81,18 @@ document.addEventListener("DOMContentLoaded", function() {
         return null; // Return null when the cookie is not found
     }
     
-    function getProgressFromCookie() {
-        const userProgressCookie = getCookie(`progress${subjects}`);
+    function getHighscoreFromCookie() {
+        const userProgressCookie = getCookie("Highscore");
         
         if (userProgressCookie) {
             try {
                 // Parse the JSON string from the cookie into an object
                 const progressData = JSON.parse(userProgressCookie);
+
                 
                 // Update score and points from the parsed object
-                score = progressData.score;
-                points = progressData.points;
+                Highscore = progressData.Highscore;
+                Highpoints = progressData.Highpoints;
     
                 //console.log(score);
                 //console.log(points);
@@ -56,6 +106,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     
     
+
     
     var currentQuestionIndex = 0;
     let score = 0;
@@ -64,22 +115,12 @@ document.addEventListener("DOMContentLoaded", function() {
     const questionContainer = document.getElementById("question-container");
     const nextButton = document.getElementById("next-button");
     const resultContainer = document.getElementById("result-container");
-
-    function commonElement(arr1, arr2) { 
-        return arr1.some(item => arr2.includes(item)) 
-    } 
-
-
-
-
+    
     function getRandomQuestion() {
         let randomIndex;
         do {
             randomIndex = Math.floor(Math.random() * questions.length);
-
-
         } while (recentlyAskedQuestions.includes(randomIndex));
-
         recentlyAskedQuestions.push(randomIndex);
         if (recentlyAskedQuestions.length > 15) {
             recentlyAskedQuestions.shift(); // Remove the oldest question from the list.
@@ -97,11 +138,10 @@ document.addEventListener("DOMContentLoaded", function() {
         return array;
     }
     
-    getProgressFromCookie();
+
+    getHighscoreFromCookie();
     
     updateScoreAndPoints();
-    
-    
     
     
     function displayQuestion() {
@@ -162,19 +202,26 @@ document.addEventListener("DOMContentLoaded", function() {
     
         scoreContainer.textContent = score;
         pointsContainer.textContent = points;
-    
-        const userProgress = {
-            points: points,
-            score: score
-        }
-    
-        const userProgressJSON = JSON.stringify(userProgress)
+
+        if (score > Highscore && points > Highpoints) {
+
+            const highscoreElement = {
+                Highpoints: points,
+                Highscore: score
+            }
+
+            const highscoreJSON = JSON.stringify(highscoreElement)
         
-        document.cookie = `Progress${subjects}=${userProgressJSON}; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/`;
+            document.cookie = `Highscore=${highscoreJSON}; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/`;
+        } 
+            
     
     }
     
     function checkAnswer() {
+
+        amountAnswered++;
+
         if (!currentQuestion) {
             console.error('No currentQuestion found.');
             return;
@@ -235,18 +282,12 @@ document.addEventListener("DOMContentLoaded", function() {
         
         currentQuestionIndex++;
         updateScoreAndPoints();
-    
-        if (currentQuestionIndex < questions.length) {
-            displayQuestion();
-        } else {
-            showResult();
-        }
     }
     
     function showResult() {
         questionContainer.innerHTML = "";
         nextButton.style.display = "none";
-        resultContainer.innerHTML = `You scored ${score} out of ${questions.length}! \n And got ${points} out of  points`;
+        resultContainer.innerHTML = `Du svarede rigtigt på ${score}/${amountAnswered}! \n og du fik ${points} point \n  <button onClick="window.location.reload();">Prøv igen</button>`;
     }
     
     nextButton.addEventListener("click", checkAnswer);
