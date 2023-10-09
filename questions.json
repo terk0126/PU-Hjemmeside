@@ -660,7 +660,7 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er den vigtigste funktion af en vandtætning i ingeniørarbejde?",
-    "options": [["At forhindre lækager eller indtrængen af vand", 10], ["At øge hastigheden af vandstrøm", 10], ["At reducere vægten af strukturen", 10]],
+    "options": [["At reducere vægten af strukturen", 10], ["At øge hastigheden af vandstrøm", 10], ["At forhindre lækager eller indtrængen af vand", 10]],
     "correctAnswer": "At forhindre lækager eller indtrængen af vand",
     "fag": ["engineering"]
   },
@@ -674,14 +674,14 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med et solcellepanel?",
-    "options": [["At omdanne sollys til elektrisk energi", 10], ["At opvarme vand", 10], ["At filtrere vand", 10]],
+    "options": [["At opvarme vand", 10], ["t omdanne sollys til elektrisk energi", 10], ["At filtrere vand", 10]],
     "correctAnswer": "At omdanne sollys til elektrisk energi",
     "fag": ["teknologi", "engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er en 3D-printer primært designet til?",
-    "options": [["At producere tredimensionelle objekter lag-for-lag", 10], ["At lave flade tegninger", 10], ["At bage kager", 10]],
+    "options": [["At producere tredimensionelle objekter lag-for-lag", 10], ["At lave flade tegninger", 10], ["At tegne huse etage for etage", 10]],
     "correctAnswer": "At producere tredimensionelle objekter lag-for-lag",
     "fag": ["teknologi", "engineering"]
   },
@@ -758,7 +758,7 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med et varmevekslingssystem i et hjem?",
-    "options": [["At regulere temperaturen ved at udveksle varme mellem luft og væske", 10], ["At lave kaffe", 10], ["At generere elektricitet", 10]],
+    "options": [["At gøre ting kolde", 10], ["At regulere temperaturen ved at udveksle varme mellem luft og væske", 10], ["At kunne bruge jordskorpen il at regulere varmen", 10]],
     "correctAnswer": "At regulere temperaturen ved at udveksle varme mellem luft og væske",
     "fag": ["engineering"]
   },
@@ -884,7 +884,7 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med et digitalt termometer?",
-    "options": [["At måle temperaturen med høj præcision og vise den på en digital skærm", 10], ["At sende e-mails", 10], ["At lave kaffe", 10]],
+    "options": [["At måle temperaturen med høj præcision og vise den på en digital skærm", 10], ["At kunne måle væsken i procent i luften", 10], ["At man kan vise matematik via temperaturene", 10]],
     "correctAnswer": "At måle temperaturen med høj præcision og vise den på en digital skærm",
     "fag": ["teknologi"]
   },
@@ -1010,7 +1010,7 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en kemisk reaktion i industriel produktion?",
-    "options": [["At man kan omdanne råmaterialer til ild", 10], ["At generere strøm", 10], ["At omdanne råmaterialer til ønskede produkter", 10]],
+    "options": [["At kunne byge maskiner via kemiske reaktioner", 10], ["At man kan omdanne råmaterialer til ild", 10], ["At omdanne råmaterialer til ønskede produkter", 10]],
     "correctAnswer": "At omdanne råmaterialer til ønskede produkter",
     "fag": ["kemi", "engineering"]
   },
@@ -1178,7 +1178,7 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er machine learning inden for teknologi?",
-    "options": [["En type bil", 10], ["En metode til at lære computere at træffe beslutninger baseret på data", 10], ["En model af solsystemet", 10]],
+    "options": [["At kunne bruge maskiner til at arbejde", 10], ["En metode til at lære computere at træffe beslutninger baseret på data", 10], ["At kunne lave modeller af byer meget nemt", 10]],
     "correctAnswer": "En metode til at lære computere at træffe beslutninger baseret på data",
     "fag": ["teknologi"]
   },
@@ -1220,7 +1220,7 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er fotosyntese i biologi?",
-    "options": [["En form for fotografi", 10], ["En proces, hvor planter omdanner lysenergi til kemisk energi", 10], ["En medicinsk behandling", 10]],
+    "options": [["En form for fotografi", 10], ["En proces, hvor planter omdanner lysenergi til kemisk energi", 10], ["En medicinsk behandling der behandler røde blodceller", 10]],
     "correctAnswer": "En proces, hvor planter omdanner lysenergi til kemisk energi",
     "fag": ["biologi"]
   },
