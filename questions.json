@@ -968,7 +968,7 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en biokemisk reaktion i biologi?",
-    "options": [["At omsætte kemikalier i levende organismer for at opretholde livet", 10], ["At lave is", 10], ["At generere elektricitet", 10]],
+    "options": [["At omsætte kemikalier i levende organismer for at opretholde livet", 10], ["At lave biologisk affald", 10], ["At lave biologisk materiale til at sikre de nyeste teknologier", 10]],
     "correctAnswer": "At omsætte kemikalier i levende organismer for at opretholde livet",
     "fag": ["biologi", "kemi"]
   },
@@ -1409,7 +1409,7 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er en syre i kemi?",
-    "options": [["En type base", 10], ["En kemisk forbindelse, der kan donere en proton", 10], ["En type fisk", 10]],
+    "options": [["En type base", 10], ["En kemisk forbindelse, der kan donere en proton", 10], ["En type syre der kan påvirke jordens atmosfære", 10]],
     "correctAnswer": "En kemisk forbindelse, der kan donere en proton",
     "fag": ["kemi"]
   },
@@ -1472,7 +1472,7 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er kunstig intelligens (AI) inden for teknologi?",
-    "options": [["En type maling", 10], ["En computersystem, der kan udføre opgaver, der normalt kræver menneskelig intelligens", 10], ["En type sportsudstyr", 10]],
+    "options": [["En type computer der kan overtage menneskeheden", 10], ["En computersystem, der kan udføre opgaver, der normalt kræver menneskelig intelligens", 10], ["En type social security, der sikrer alles sikkerhed", 10]],
     "correctAnswer": "En computersystem, der kan udføre opgaver, der normalt kræver menneskelig intelligens",
     "fag": ["teknologi"]
   },
