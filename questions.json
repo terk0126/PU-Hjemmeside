@@ -2,28 +2,28 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er fotosyntese?",
-    "options": [["Processen med at omdanne sollys til energi", 10], ["Processen med at omdanne kuldioxid til oxygen", 10], ["Processen med at omdanne glukose til ATP", 10]],
+    "options": [["Processen med at omdanne kuldioxid til oxygen", 10], ["Processen med at omdanne sollys til energi", 10], ["Processen med at omdanne glukose til ATP", 10]],
     "correctAnswer": "Processen med at omdanne sollys til energi",
     "fag": ["biologi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er det kemiske symbol for vand?",
-    "options": [["H2O", 10], ["CO2", 10], ["O2", 10]],
+    "options": [["CO2", 10], ["H2O", 10], ["O2", 10]],
     "correctAnswer": "H2O",
     "fag": ["kemi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvilken gas er mest almindelig i Jordens atmosfære?",
-    "options": [["Kvælstof", 10], ["Ilt", 10], ["Kuldioxid", 10]],
+    "options": [["Kuldioxid", 10], ["Ilt", 10], ["Kvælstof", 10]],
     "correctAnswer": "Kvælstof",
     "fag": ["geografi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er den mindste enhed af stof?",
-    "options": [["Atom", 10], ["Molekyle", 10], ["Celle", 10]],
+    "options": [["Molekyle", 10], ["Atom", 10], ["Celle", 10]],
     "correctAnswer": "Atom",
     "fag": ["kemi"]
   },
@@ -37,14 +37,14 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er den kemiske formel for glukose?",
-    "options": [["C6H12O6", 10], ["H2O", 10], ["CO2", 10]],
+    "options": [["C6H12O6", 10], ["C5H9P8", 10], ["CO2", 10]],
     "correctAnswer": "C6H12O6",
     "fag": ["kemi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er det største organ i menneskekroppen?",
-    "options": [["Hud", 10], ["Hjerte", 10], ["Lever", 10]],
+    "options": [["Hjerte", 10], ["Hud", 10], ["Lever", 10]],
     "correctAnswer": "Hud",
     "fag": ["biologi"]
   },
@@ -58,7 +58,7 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er funktionen af mitochondrier i en celle?",
-    "options": [["Producerer ATP", 10], ["Gemmer genetisk information", 10], ["Nedbryder cellulært affald", 10]],
+    "options": [["Gemmer genetisk materiale", 10], ["Producerer ATP", 10], ["Nedbryder cellulært affald", 10]],
     "correctAnswer": "Producerer ATP",
     "fag": ["biologi"]
   },
@@ -72,7 +72,7 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er hovedfunktionen af røde blodlegemer?",
-    "options": [["At transportere ilt til væv", 10], ["At bekæmpe infektioner", 10], ["At fordøje mad", 10]],
+    "options": [["At fordøje mad", 10], ["At bekæmpe infektioner", 10], ["At transportere ilt til væv", 10]],
     "correctAnswer": "At transportere ilt til væv",
     "fag": ["biologi"]
   },
@@ -100,7 +100,7 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er det kemiske symbol for kulstof?",
-    "options": [["C", 10], ["Ca", 10], ["Co", 10]],
+    "options": [["Co", 10], ["Ca", 10], ["C", 10]],
     "correctAnswer": "C",
     "fag": ["kemi"]
   },
@@ -114,7 +114,7 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er enheden for elektrisk strøm?",
-    "options": [["Ampere (A)", 10], ["Volt (V)", 10], ["Watt (W)", 10]],
+    "options": [["Volt (V)", 10], ["Ampere (A)", 10], ["Watt (W)", 10]],
     "correctAnswer": "Ampere (A)",
     "fag": ["fysik"]
   },
@@ -128,14 +128,14 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er hastigheden af lyd i luft ved stuetemperatur?",
-    "options": [["Cirka 343 meter pr. sekund", 10], ["Cirka 30 meter pr. sekund", 10], ["Cirka 1500 meter pr. sekund", 10]],
+    "options": [["Cirka 321 meter pr. sekund", 10], ["Cirka 343 meter pr. sekund", 10], ["Cirka 1500 meter pr. sekund", 10]],
     "correctAnswer": "Cirka 343 meter pr. sekund",
     "fag": ["fysik"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvilken planet i solsystemet er tættest på Solen?",
-    "options": [["Merkur", 10], ["Venus", 10], ["Jorden", 10]],
+    "options": [["Jupiter", 10], ["Venus", 10], ["Merkur", 10]],
     "correctAnswer": "Merkur",
     "fag": ["geografi"]
   },
@@ -163,7 +163,7 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er Newtons første lov om bevægelse?",
-    "options": [["Et objekt forbliver i hvile eller bevæger sig med konstant hastighed, medmindre der påvirkes af en ekstern kraft", 10], ["Kraften mellem to legemer er proportional med produktet af deres masse og afstanden mellem dem", 10], ["For hver handling er der en modsatrettet reaktion", 10]],
+    "options": [["Kraften mellem to legemer er proportional med produktet af deres masse og afstanden mellem dem", 10], ["Et objekt forbliver i hvile eller bevæger sig med konstant hastighed, medmindre der påvirkes af en ekstern kraft", 10], ["For hver handling er der en modsatrettet reaktion", 10]],
     "correctAnswer": "Et objekt forbliver i hvile eller bevæger sig med konstant hastighed, medmindre der påvirkes af en ekstern kraft",
     "fag": ["fysik"]
   },
@@ -177,21 +177,21 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er tyngdekraften?",
-    "options": [["Kraften, der tiltrækker to legemer mod hinanden på grund af deres masse", 10], ["Kraften, der får objekter til at flyde i væsker", 10], ["Kraften, der får objekter til at stige i temperatur", 10]],
+    "options": [["Kraften, der får objekter til at flyde i væsker", 10], ["Kraften, der tiltrækker to legemer mod hinanden på grund af deres masse", 10], ["Kraften, der får objekter til at stige i temperatur", 10]],
     "correctAnswer": "Kraften, der tiltrækker to legemer mod hinanden på grund af deres masse",
     "fag": ["fysik"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er den kemiske formel for kuldioxid?",
-    "options": [["CO2", 10], ["O2", 10], ["H2O", 10]],
+    "options": [["CO", 10], ["CO2", 10], ["H2O", 10]],
     "correctAnswer": "CO2",
     "fag": ["kemi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er den kemiske formel for vanddamp?",
-    "options": [["H2O", 10], ["CO2", 10], ["O2", 10]],
+    "options": [["CO2", 10], ["H20", 10], ["O2", 10]],
     "correctAnswer": "H2O",
     "fag": ["kemi"]
   },
@@ -212,14 +212,14 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er enheden for måling af masse?",
-    "options": [["Kilogram (kg)", 10], ["Meter (m)", 10], ["Sekund (s)", 10]],
+    "options": [["Meter (m)", 10], ["Kilogram (kg)", 10], ["Sekund (s)", 10]],
     "correctAnswer": "Kilogram (kg)",
     "fag": ["fysik"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er enheden for måling af temperatur i det metriske system?",
-    "options": [["Celsius (°C)", 10], ["Fahrenheit (°F)", 10], ["Kelvin (K)", 10]],
+    "options": [["Kelvin (K)", 10], ["Fahrenheit (°F)", 10], ["Celsius (°C)", 10]],
     "correctAnswer": "Celsius (°C)",
     "fag": ["fysik"]
   },
@@ -240,14 +240,14 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er enheden for måling af elektrisk modstand?",
-    "options": [["Ohm (Ω)", 10], ["Watt (W)", 10], ["Ampere (A)", 10]],
+    "options": [["Watt (W)", 10], ["Ohm (Ω)", 10], ["Ampere (A)", 10]],
     "correctAnswer": "Ohm (Ω)",
     "fag": ["fysik"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er den kemiske formel for natriumklorid?",
-    "options": [["NaCl", 10], ["H2O", 10], ["CO2", 10]],
+    "options": [["NaO2", 10], ["NaCl", 10], ["CO2", 10]],
     "correctAnswer": "NaCl",
     "fag": ["kemi"]
   },
@@ -723,21 +723,21 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med et GPS-system?",
-    "options": [["At bestemme nøjagtig positionsinformation", 10], ["At sende tekstbeskeder", 10], ["At lave videokonferencer", 10]],
+    "options": [["At kunne finde vej", 10], ["At kunne få kontakt til andre langt væk", 10], ["At bestemme nøjagtig positionsinformation", 10]],
     "correctAnswer": "At bestemme nøjagtig positionsinformation",
     "fag": ["teknologi", "engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en vindmølle?",
-    "options": [["At omdanne vindenergi til elektrisk energi", 10], ["At male korn", 10], ["At rense luften", 10]],
+    "options": [["At omdanne elektrisk energi til vindenergi", 10], ["At omdanne vindenergi til elektrisk energi", 10], ["At rense luften", 10]],
     "correctAnswer": "At omdanne vindenergi til elektrisk energi",
     "fag": ["teknologi", "engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en radar i luftfart?",
-    "options": [["At opdage og spore andre fly", 10], ["At lave vejrprognoser", 10], ["At bage brød", 10]],
+    "options": [["At opdage og spore andre fly", 10], ["At kunne opdage nye racer", 10], ["At kunne tegne jordkloden", 10]],
     "correctAnswer": "At opdage og spore andre fly",
     "fag": ["teknologi", "engineering"]
   },
@@ -793,35 +793,35 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med et geotermisk kraftværk?",
-    "options": [["At udnytte varmen fra jordens indre til at generere elektricitet", 10], ["At lave is", 10], ["At regulere vejrforholdene", 10]],
+    "options": [["At omdanne mekanisk energi til strøm", 10], ["At omdanne strøm til mekanisk energi", 10], ["At udnytte varmen fra jordens indre til at generere elektricitet", 10]],
     "correctAnswer": "At udnytte varmen fra jordens indre til at generere elektricitet",
     "fag": ["teknologi", "engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en elektrisk generator?",
-    "options": [["At omdanne mekanisk energi til elektrisk energi", 10], ["At lave brød", 10], ["At lave te", 10]],
+    "options": [["At omdanne mekanisk energi til elektrisk energi", 10], ["At omdanne luft til strøm", 10], ["En reserve til strøm til nødssituationer", 10]],
     "correctAnswer": "At omdanne mekanisk energi til elektrisk energi",
     "fag": ["engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvilken type ingeniør arbejder typisk med udvikling af flymotorer?",
-    "options": [["Aerospace ingeniør", 10], ["Elektrisk ingeniør", 10], ["Kemisk ingeniør", 10]],
+    "options": [["Kemisk ingeniør", 10], ["Elektrisk ingeniør", 10], ["Aerospace ingeniør", 10]],
     "correctAnswer": "Aerospace ingeniør",
     "fag": ["engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en røntgenmaskine i medicin?",
-    "options": [["At producere billeder af kroppens indre strukturer", 10], ["At måle blodtryk", 10], ["At lave mad", 10]],
+    "options": [["At producere billeder af kroppens indre strukturer", 10], ["At se igennem alting", 10], ["At kunne gennemskue hvilke medicin en patient har brug for", 10]],
     "correctAnswer": "At producere billeder af kroppens indre strukturer",
     "fag": ["teknologi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med et kredsløbskort (PCB) i elektronik?",
-    "options": [["At fungere som en platform til montering og forbindelse af elektroniske komponenter", 10], ["At spille musik", 10], ["At generere elektricitet", 10]],
+    "options": [["At for elektronikken til at kører bedrer rundt", 10], ["At fungerer som strømopbpevaring", 10], ["At fungere som en platform til montering og forbindelse af elektroniske komponenter", 10]],
     "correctAnswer": "At fungere som en platform til montering og forbindelse af elektroniske komponenter",
     "fag": ["teknologi", "engineering"]
   },
@@ -835,35 +835,35 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med et mikroskop i videnskaben?",
-    "options": [["At forstørre små objekter og gøre dem synlige", 10], ["At lave kaffe", 10], ["At regulere vejrforholdene", 10]],
+    "options": [["At forstørre små objekter og gøre dem synlige", 10], ["At formindske objekter", 10], ["At kunne måle hvilke miljøskadende effekter noget har", 10]],
     "correctAnswer": "At forstørre små objekter og gøre dem synlige",
     "fag": ["teknologi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med et vandrensningsanlæg?",
-    "options": [["At fjerne forurenende stoffer fra drikkevand", 10], ["At generere elektricitet", 10], ["At lave smykker", 10]],
+    "options": [["At tilføje miljøskadende stoffer til vandet", 10], ["At fjerne forurenende stoffer fra drikkevand", 10], ["At tilføje ekstra næringsstoffer til vandet", 10]],
     "correctAnswer": "At fjerne forurenende stoffer fra drikkevand",
     "fag": ["engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med et termografisk kamera?",
-    "options": [["At måle temperaturforskelle og finde varme- eller kuldebroer", 10], ["At sende tekstbeskeder", 10], ["At lave te", 10]],
+    "options": [["At måle højder af skyskrabere", 10], ["At måle temperaturforskelle og finde varme- eller kuldebroer", 10], ["At kunne spotte alting med et kamera", 10]],
     "correctAnswer": "At måle temperaturforskelle og finde varme- eller kuldebroer",
     "fag": ["teknologi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en satellitkommunikationssystem?",
-    "options": [["At muliggøre kommunikation over lange afstande ved hjælp af satellitter", 10], ["At male korn", 10], ["At regulere vejrforholdene", 10]],
+    "options": [["At mulliggøre kommunikation til andre planeter", 10], ["At muliggøre kommunikation over lange afstande ved hjælp af satellitter", 10], ["at muliggøre kommunikation over korte afstande", 10]],
     "correctAnswer": "At muliggøre kommunikation over lange afstande ved hjælp af satellitter",
     "fag": ["teknologi", "engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med et solur?",
-    "options": [["At vise tid baseret på solens position på himlen", 10], ["At brygge kaffe", 10], ["At rense luften", 10]],
+    "options": [["At vise tiden upræcist", 10], ["At vise tid baseret på solens position på himlen", 10], ["At vise tiden baseret på skygger", 10]],
     "correctAnswer": "At vise tid baseret på solens position på himlen",
     "fag": ["teknologi"]
   },
@@ -877,7 +877,7 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en solvarmeindsamler?",
-    "options": [["At absorbere solenergi til opvarmning af vand eller luft", 10], ["At male korn", 10], ["At generere elektricitet", 10]],
+    "options": [["At arbosobere varme til huse", 10], ["At absorbere solenergi til opvarmning af vand eller luft", 10], ["At arbsobere varme til at modvirke andet varme", 10]],
     "correctAnswer": "At absorbere solenergi til opvarmning af vand eller luft",
     "fag": ["teknologi", "engineering"]
   },
@@ -891,28 +891,28 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en geografisk positionsenhed (GPS-enhed)?",
-    "options": [["At bestemme nøjagtig positionsinformation ved hjælp af satellitsignaler", 10], ["At lave is", 10], ["At regulere vejrforholdene", 10]],
+    "options": [["At bestemme nøjagtig positionsinformation ved hjælp af satellitsignaler", 10], ["At finde den geografiske position meget nemt, men meget upræcist", 10], ["At regulere vejrforholdene", 10]],
     "correctAnswer": "At bestemme nøjagtig positionsinformation ved hjælp af satellitsignaler",
     "fag": ["teknologi", "engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en geiger-tæller?",
-    "options": [["At måle niveauer af ioniserende stråling", 10], ["At producere elektricitet", 10], ["At lave brød", 10]],
+    "options": [["At tælle antallet af geiger", 10], ["At måle niveauer af ioniserende stråling", 10], ["At måle vejrforholdene", 10]],
     "correctAnswer": "At måle niveauer af ioniserende stråling",
     "fag": ["teknologi", "engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en gasmaske?",
-    "options": [["At beskytte brugeren mod farlige luftbårne partikler og gasser", 10], ["At male korn", 10], ["At regulere vandstrømmen", 10]],
+    "options": [["At anvende avancerede nanoteknologier for at skabe masker, der faktisk trækker farlige partikler og gasser ud af luften og beskytter brugeren på den måde", 10], ["At bruge en overlegen maske, der ser professionel ud, men faktisk ikke har nogen effektiv filtrering af farlige stoffer", 10], ["At beskytte brugeren mod farlige luftbårne partikler og gasser", 10]],
     "correctAnswer": "At beskytte brugeren mod farlige luftbårne partikler og gasser",
     "fag": ["teknologi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en vindtunnel i ingeniørarbejde?",
-    "options": [["At teste og analysere aerodynamikken af forskellige objekter", 10], ["At brygge kaffe", 10], ["At rense luften", 10]],
+    "options": [["At ignorere luftens effekt på objekter og antage, at aerodynamik ikke er relevant", 10], ["At teste og analysere aerodynamikken af forskellige objekter", 10], ["At bruge objekter, der ikke bevæger sig overhovedet, til at analysere aerodynamikken", 10]],
     "correctAnswer": "At teste og analysere aerodynamikken af forskellige objekter",
     "fag": ["engineering"]
   },
@@ -926,42 +926,42 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med et rensningsanlæg til spildevand?",
-    "options": [["At rense spildevand for forurenende stoffer, inden det udledes i miljøet", 10], ["At lave smykker", 10], ["At generere elektricitet", 10]],
+    "options": [["At tilføje flere forurenende stoffer til spildevandet for at neutralisere de eksisterende forurenende stoffer", 10], ["At rense spildevand for forurenende stoffer, inden det udledes i miljøet", 10], ["At pumpe spildevandet direkte ud i naturen uden nogen form for behandling", 10]],
     "correctAnswer": "At rense spildevand for forurenende stoffer, inden det udledes i miljøet",
     "fag": ["engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en datacenter i informationsteknologi?",
-    "options": [["At lagre og håndtere store mængder data og applikationer", 10], ["At lave te", 10], ["At regulere vandstrømmen", 10]],
+    "options": [["At lagre og håndtere store mængder data og applikationer", 10], ["At udnytte sollys til at generere elektricitet", 10], ["At opbevare elektricitet fra sollys", 10]],
     "correctAnswer": "At lagre og håndtere store mængder data og applikationer",
     "fag": ["teknologi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med et supersonisk fly?",
-    "options": [["At flyve med en hastighed højere end lydens hastighed", 10], ["At male korn", 10], ["At rense luften", 10]],
+    "options": [["At svømme i vandet med en hastighed højere end lydens hastighed", 10], ["At flyve med en hastighed højere end lydens hastighed", 10], ["At flyve med en hastighed der er lavere en lydens hastighed", 10]],
     "correctAnswer": "At flyve med en hastighed højere end lydens hastighed",
     "fag": ["engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en katalysator i kemi og industriel produktion?",
-    "options": [["At fremskynde kemiske reaktioner uden at forbruge sig selv", 10], ["At producere elektricitet", 10], ["At brygge kaffe", 10]],
+    "options": [["At forsinke kemiske reaktioner uden at forbruge sig selv", 10], ["At obsevere kemiske reaktioner uden at deltage i dem", 10], ["At fremskynde kemiske reaktioner uden at forbruge sig selv", 10]],
     "correctAnswer": "At fremskynde kemiske reaktioner uden at forbruge sig selv",
     "fag": ["kemi", "engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en polymer i kemisk videnskab?",
-    "options": [["At danne lange kæder af gentagne enheder, der har forskellige anvendelser", 10], ["At sende e-mails", 10], ["At lave brød", 10]],
+    "options": [["At opdele i stedet for at forbinde", 10], ["At skabe enkle mønstre i steder for komplekse designs", 10], ["At danne lange kæder af gentagne enheder, der har forskellige anvendelser", 10]],
     "correctAnswer": "At danne lange kæder af gentagne enheder, der har forskellige anvendelser",
     "fag": ["kemi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en fjernvarmeinstallation?",
-    "options": [["At levere varme til boliger og bygninger via rørledninger", 10], ["At male korn", 10], ["At regulere vejrforholdene", 10]],
+    "options": [["At komme med kulde når det bliver for varmt", 10], ["At hjælpe med vandrensning", 10], ["At levere varme til boliger og bygninger via rørledninger", 10]],
     "correctAnswer": "At levere varme til boliger og bygninger via rørledninger",
     "fag": ["engineering"]
   },
@@ -975,63 +975,63 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en bæredygtig konstruktion i ingeniørarbejde?",
-    "options": [["At minimere miljøpåvirkningen og ressourceforbruget", 10], ["At lave te", 10], ["At rense luften", 10]],
+    "options": [["At lave så meget arbejde med så meget co2 udslep som muligt", 10], ["At lave et hus uden hjælp", 10], ["At minimere miljøpåvirkningen og ressourceforbruget", 10]],
     "correctAnswer": "At minimere miljøpåvirkningen og ressourceforbruget",
     "fag": ["engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en biometrisk identifikationsmetode?",
-    "options": [["At identificere individer ved hjælp af deres unikke fysiske eller adfærdsmæssige karakteristika", 10], ["At bage kager", 10], ["At regulere vandstrømmen", 10]],
+    "options": [["At identificere fejlkilder", 10], ["At identificere individer ved hjælp af deres unikke fysiske eller adfærdsmæssige karakteristika", 10], ["At identificere biostof", 10]],
     "correctAnswer": "At identificere individer ved hjælp af deres unikke fysiske eller adfærdsmæssige karakteristika",
     "fag": ["teknologi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en hydroelektrisk dæmning?",
-    "options": [["At generere elektricitet ved at udnytte vandkraft", 10], ["At lave brød", 10], ["At regulere vejrforholdene", 10]],
+    "options": [["At hjælpe vandflowet via elektricitet", 10], ["At generere elektricitet ved at udnytte vandkraft", 10], ["At regulere vejrforholdene", 10]],
     "correctAnswer": "At generere elektricitet ved at udnytte vandkraft",
     "fag": ["teknologi", "engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en stamcelle i biologi og medicin?",
-    "options": [["At udvikle sig til forskellige celletyper og bidrage til vævsgenkendelse og heling", 10], ["At lave mad", 10], ["At sende tekstbeskeder", 10]],
+    "options": [["Stamceller sørger for at arbosobere farlige gifstoffer", 10], ["At udvikle sig til forskellige celletyper og bidrage til vævsgenkendelse og heling", 10], ["Stamceller udleder den nødvendige radioaktivitet kroppen skal bruge", 10]],
     "correctAnswer": "At udvikle sig til forskellige celletyper og bidrage til vævsgenkendelse og heling",
     "fag": ["biologi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en radardetektor i trafikstyring?",
-    "options": [["At opdage fartøjer og måle deres hastighed", 10], ["At male korn", 10], ["At regulere vandstrømmen", 10]],
+    "options": [["At styre lysreguleringen", 10], ["At opdage fartøjer og måle deres hastighed", 10], ["At spille høje lyde for at distrahere dem der kørerm", 10]],
     "correctAnswer": "At opdage fartøjer og måle deres hastighed",
     "fag": ["teknologi", "engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en kemisk reaktion i industriel produktion?",
-    "options": [["At omdanne råmaterialer til ønskede produkter", 10], ["At lave te", 10], ["At generere elektricitet", 10]],
+    "options": [["At man kan omdanne råmaterialer til ild", 10], ["At generere strøm", 10], ["At omdanne råmaterialer til ønskede produkter", 10]],
     "correctAnswer": "At omdanne råmaterialer til ønskede produkter",
     "fag": ["kemi", "engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en robotarm i industriel automation?",
-    "options": [["At udføre præcise opgaver og manipulationer uden menneskelig indgriben", 10], ["At brygge kaffe", 10], ["At rense luften", 10]],
+    "options": [["At udføre præcise opgaver og manipulationer uden menneskelig indgriben", 10], ["At kunne brygge kaffe meget præcist", 10], ["At kunne lyfte medarbejdere op til steder de skal være", 10]],
     "correctAnswer": "At udføre præcise opgaver og manipulationer uden menneskelig indgriben",
     "fag": ["teknologi", "engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en bølgeenergikonverter i teknologi og energiproduktion?",
-    "options": [["At omdanne bølgeenergi til elektrisk energi", 10], ["At lave is", 10], ["At regulere vejrforholdene", 10]],
+    "options": [["At bruge elektrisk energi til at lave bølger", 10], ["At omdanne bølgeenergi til elektrisk energi", 10], ["At finde på ny teknologi ved hjælp af bølger", 10]],
     "correctAnswer": "At omdanne bølgeenergi til elektrisk energi",
     "fag": ["teknologi", "engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en kunstig intelligens-algoritme?",
-    "options": [["At udføre komplekse opgaver ved hjælp af maskinlæring og beslutningstagning", 10], ["At lave kaffe", 10], ["At regulere vandstrømmen", 10]],
+    "options": [["At udføre komplekse opgaver ved hjælp af maskinlæring og beslutningstagning", 10], ["At kunne tage over menneskeheden", 10], ["At dræbe alle menneskets naturlige fjender", 10]],
     "correctAnswer": "At udføre komplekse opgaver ved hjælp af maskinlæring og beslutningstagning",
     "fag": ["teknologi"]
   },
@@ -1073,14 +1073,14 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en kryogen tank i videnskab og teknologi?",
-    "options": [["At opbevare gasser og væsker ved meget lave temperaturer", 10], ["At lave is", 10], ["At sende tekstbeskeder", 10]],
+    "options": [["At opbevare gasser og væsker ved meget lave temperaturer", 10], ["At opbevare gasser og væsker ved meget høje temperatur", 10], ["At kunne opbevare elektronik ved den rette temperatur", 10]],
     "correctAnswer": "At opbevare gasser og væsker ved meget lave temperaturer",
     "fag": ["teknologi", "engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en laserkirurgi i medicin og teknologi?",
-    "options": [["At udføre præcise kirurgiske indgreb ved hjælp af laserlys", 10], ["At lave kaffe", 10], ["At regulere vandstrømmen", 10]],
+    "options": [["At kunne udføre nemme operationer", 10], ["At udføre præcise kirurgiske indgreb ved hjælp af laserlys", 10], ["At kunne ødelægge kraftceller", 10]],
     "correctAnswer": "At udføre præcise kirurgiske indgreb ved hjælp af laserlys",
     "fag": ["teknologi"]
   },
@@ -1489,315 +1489,5 @@
     "options": [["Nilen", 10], ["Amazonas", 10], ["Mississippi", 10]],
     "correctAnswer": "Nilen",
     "fag": ["geografi"]
-  },
-  {
-    "type": "number",
-    "question": "Hvor mange planeter er der i vores solsystem?",
-    "correctAnswer": 8,
-    "point": 10,
-    "fag": ["fysik"]
-},
-{
-    "type": "number",
-    "question": "Hvad er hastigheden af ​​lyd i luft ved 25 °C?",
-    "correctAnswer": 343,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["fysik"]
-},
-{
-    "type": "number",
-    "question": "Hvor mange planeter er der i vores solsystem?",
-    "correctAnswer": 8,
-    "point": 10,
-    "fag": ["fysik"]
-  },
-  {
-    "type": "number",
-    "question": "Hvad er hastigheden af lyd i luft ved stuetemperatur?",
-    "correctAnswer": 343,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["fysik"]
-  },
-  {
-    "type": "number",
-    "question": "Hvor mange ben har en edderkop?",
-    "correctAnswer": 8,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["biologi"]
-  },
-  {
-    "type": "number",
-    "question": "Hvad er gennemsnitstemperaturen på Jorden?",
-    "correctAnswer": 14,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["geografi","fysik"]
-  },
-  {
-    "type": "number",
-    "question": "Hvor mange knogler er der i en voksen menneskekrop?",
-    "correctAnswer": 206,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["biologi"]
-  },
-  {
-    "type": "number",
-    "question": "Hvor mange dage tager det Jorden at rotere om sin akse?",
-    "correctAnswer": 1,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["fysik"]
-  },
-  {
-    "type": "number",
-    "question": "Hvad er den gennemsnitlige afstand mellem Jorden og Solen i kilometer?",
-    "correctAnswer": 149600000,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["fysik"]
-  },
-  {
-    "type": "number",
-    "question": "Hvad er accelerationen på grund af tyngdekraften på Jorden?",
-    "correctAnswer": 9.8,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["fysik"]
-  },
-  {
-    "type": "number",
-    "question": "Hvor mange procenter af Jordens overflade er dækket af vand?",
-    "correctAnswer": 71,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["geografi"]
-  },
-  {
-    "type": "number",
-    "question": "Hvor mange milliarder år gammel er universet?",
-    "correctAnswer": 13.8,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["fysik"]
-  },
-  {
-    "type": "number",
-    "question": "Hvor mange kromosomer har mennesker normalt?",
-    "correctAnswer": 46,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["biologi"]
-  },
-  {
-    "type": "number",
-    "question": "Hvad er tyngdekraften på Månen i forhold til tyngdekraften på Jorden?",
-    "correctAnswer": 0.17,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["fysik"]
-  },
-  {
-    "type": "number",
-    "question": "Hvor mange år tager det for Pluto at fuldføre en omløbstid om Solen?",
-    "correctAnswer": 248,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["fysik"]
-  },
-  {
-    "type": "number",
-    "question": "Hvad er den mindste enhed af et kemisk grundstof?",
-    "correctAnswer": 1,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["kemi"]
-  },
-  {
-    "type": "number",
-    "question": "Hvor mange kontinenter er der på Jorden?",
-    "correctAnswer": 7,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["geografi"]
-  },
-  {
-    "type": "number",
-    "question": "Hvor mange år tager det for Mars at fuldføre en omløbstid om Solen?",
-    "correctAnswer": 687,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["fysik"]
-  },
-  {
-    "type": "number",
-    "question": "Hvad er den gennemsnitlige hastighed af en ubelastet løber over 100 meter?",
-    "correctAnswer": 9.58,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["biologi"]
-  },
-  {
-    "type": "number",
-    "question": "Hvor mange liter vand skal man drikke dagligt for at opretholde hydrering?",
-    "correctAnswer": 2,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["biologi"]
-  },
-  {
-    "type": "number",
-    "question": "Hvor mange knogler er der i en voksen kattekrop?",
-    "correctAnswer": 230,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["biologi"]
-  },
-  {
-    "type": "number",
-    "question": "Hvor mange kilometer er der i et maratonløb?",
-    "correctAnswer": 42.195,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["biologi"]
-  },
-  {
-    "type": "number",
-    "question": "Hvor mange farver er der i et regnbue?",
-    "correctAnswer": 7,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["fysik"]
-  },
-  {
-    "type": "number",
-    "question": "Hvor mange dage tager det for Månen at fuldføre en omløbstid om Jorden?",
-    "correctAnswer": 27.3,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["fysik"]
-  },
-  {
-    "type": "number",
-    "question": "Hvor mange milliliter er der i en liter?",
-    "correctAnswer": 1000,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["matematik"]
-  },
-  {
-    "type": "number",
-    "question": "Hvor mange kvadratkilometer er der i Grønlands areal?",
-    "correctAnswer": 2166086,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["geografi"]
-  },
-  {
-    "type": "number",
-    "question": "Hvor mange år tager det for Jupiter at fuldføre en omløbstid om Solen?",
-    "correctAnswer": 11.9,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["fysik"]
-  },
-  {
-    "type": "number",
-    "question": "Hvor mange ben har en edderkop?",
-    "correctAnswer": 8,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["biologi"]
-  },
-  {
-    "type": "number",
-    "question": "Hvor mange stjerner er der i stjernebilledet Store Bjørn?",
-    "correctAnswer": 7,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["fysik"]
-  },
-  {
-    "type": "number",
-    "question": "Hvor mange kilometer er der fra Jorden til Månen?",
-    "correctAnswer": 384400,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["fysik"]
-  },
-  {
-    "type": "number",
-    "question": "Hvor mange år tager det for Saturn at fuldføre en omløbstid om Solen?",
-    "correctAnswer": 29.5,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["fysik"]
-  },
-  {
-    "type": "number",
-    "question": "Hvor mange planeter har solsystemet med kaldet 'de ydre planeter'?",
-    "correctAnswer": 4,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["fysik"]
-  },
-  {
-    "type": "number",
-    "question": "Hvor mange grader er der i en retvinklet trekant?",
-    "correctAnswer": 180,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["matematik"]
-  },
-  {
-    "type": "number",
-    "question": "Hvad er tyngdekraften på Saturn i forhold til tyngdekraften på Jorden?",
-    "correctAnswer": 1.07,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["fysik"]
-  },
-  {
-    "type": "number",
-    "question": "Hvad er verdenshavets gennemsnitlige dybde i meter?",
-    "correctAnswer": 3790,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["geografi"]
-  },
-  {
-    "type": "number",
-    "question": "Hvor mange arme har en blæksprutte?",
-    "correctAnswer": 8,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["biologi"]
-  },
-  {
-    "type": "number",
-    "question": "Hvad er den højeste temperatur, der nogensinde er målt på Jorden?",
-    "correctAnswer": 56.7,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["geografi"]
-  },
-  {
-    "type": "number",
-    "question": "Hvor mange dage tager det for Venus at fuldføre en omløbstid om Solen?",
-    "correctAnswer": 225,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["fysik"]
-  },
-  {
-    "type": "number",
-    "question": "Hvor mange grader er der i en cirkel?",
-    "correctAnswer": 360,
-    "point": 10,
-    "marginOfError": 10,
-    "fag": ["matematik"]
   }
 ]
