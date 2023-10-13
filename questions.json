@@ -415,7 +415,7 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er den kemiske formel for methan?",
-    "options": [["CH4", 10], ["H2O", 10], ["O2", 10]],
+    "options": [["CH4", 10], ["CH6", 10], ["CH8", 10]],
     "correctAnswer": "CH4",
     "fag": ["kemi"]
   },
@@ -429,7 +429,7 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er den kemiske formel for klorofyl?",
-    "options": [["C55H72MgN4O5", 10], ["H2O", 10], ["CO2", 10]],
+    "options": [["C55H72MgN4O5", 10], ["Fe2", 10], ["C10H15N5O10P2", 10]],
     "correctAnswer": "C55H72MgN4O5",
     "fag": ["kemi"]
   },
@@ -870,7 +870,7 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en broklokke?",
-    "options": [["At advare om farlige vejrforhold til søfarende", 10], ["At lave mad", 10], ["At regulere vandstrømmen", 10]],
+    "options": [["At advare om farlige vejrforhold til søfarende", 10], ["At ringe alle folk ind til time", 10], ["At informere broen om at de skal åbne den", 10]],
     "correctAnswer": "At advare om farlige vejrforhold til søfarende",
     "fag": ["engineering"]
   },
@@ -1010,14 +1010,14 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en kemisk reaktion i industriel produktion?",
-    "options": [["At kunne byge maskiner via kemiske reaktioner", 10], ["At man kan omdanne råmaterialer til ild", 10], ["At omdanne råmaterialer til ønskede produkter", 10]],
+    "options": [["At man kan omdanne råmaterialer til ild", 10], ["At generere strøm", 10], ["At omdanne råmaterialer til ønskede produkter", 10]],
     "correctAnswer": "At omdanne råmaterialer til ønskede produkter",
     "fag": ["kemi", "engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en robotarm i industriel automation?",
-    "options": [["At udføre præcise opgaver og manipulationer uden menneskelig indgriben", 10], ["At kunne brygge kaffe meget præcist", 10], ["At kunne lyfte medarbejdere op til steder de skal være", 10]],
+    "options": [["At udføre præcise opgaver og manipulationer uden menneskelig indgriben", 10], ["At sætte ure op på væggen", 10], ["At kunne lyfte medarbejdere op til steder de skal være", 10]],
     "correctAnswer": "At udføre præcise opgaver og manipulationer uden menneskelig indgriben",
     "fag": ["teknologi", "engineering"]
   },
@@ -1031,77 +1031,77 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en kunstig intelligens-algoritme?",
-    "options": [["At udføre komplekse opgaver ved hjælp af maskinlæring og beslutningstagning", 10], ["At kunne tage over menneskeheden", 10], ["At dræbe alle menneskets naturlige fjender", 10]],
+    "options": [["At udføre komplekse opgaver ved hjælp af maskinlæring og beslutningstagning", 10], ["At designe nye biler", 10], ["At regulere vandstrømmen", 10]],
     "correctAnswer": "At udføre komplekse opgaver ved hjælp af maskinlæring og beslutningstagning",
     "fag": ["teknologi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en geoteknisk undersøgelse i ingeniørarbejde?",
-    "options": [["At vurdere jordens egenskaber og stabilitet for bygningskonstruktioner", 10], ["At lave mad", 10], ["At sende tekstbeskeder", 10]],
+    "options": [["At vurdere jordens egenskaber og stabilitet for bygningskonstruktioner", 10], ["At finde ud af hvilke sten der er under os", 10], ["At sende tekstbeskeder", 10]],
     "correctAnswer": "At vurdere jordens egenskaber og stabilitet for bygningskonstruktioner",
     "fag": ["engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en proteinanalyse i biologi og bioteknologi?",
-    "options": [["At identificere og karakterisere proteiner for forsknings- og diagnostiske formål", 10], ["At generere elektricitet", 10], ["At lave brød", 10]],
+    "options": [["At identificere og karakterisere proteiner for forsknings- og diagnostiske formål", 10], ["At generere elektricitet", 10], ["At danne DNA", 10]],
     "correctAnswer": "At identificere og karakterisere proteiner for forsknings- og diagnostiske formål",
     "fag": ["biologi", "teknologi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med et klimakontrolsystem i bygninger?",
-    "options": [["At regulere temperatur, fugtighed og ventilation for komfort og energieffektivitet", 10], ["At brygge kaffe", 10], ["At regulere vandstrømmen", 10]],
+    "options": [["At regulere temperatur, fugtighed og ventilation for komfort og energieffektivitet", 10], ["At sørge for at mennesker arbejder", 10], ["At regulere vandstrømmen", 10]],
     "correctAnswer": "At regulere temperatur, fugtighed og ventilation for komfort og energieffektivitet",
     "fag": ["engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en DNA-sekventering i bioteknologi og genetik?",
-    "options": [["At bestemme rækkefølgen af DNA-baser i en genetisk kode", 10], ["At lave te", 10], ["At sende e-mails", 10]],
+    "options": [["At bestemme rækkefølgen af DNA-baser i en genetisk kode", 10], ["At lave hjemmesider", 10], ["At sende e-mails", 10]],
     "correctAnswer": "At bestemme rækkefølgen af DNA-baser i en genetisk kode",
     "fag": ["biologi", "teknologi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en termoelektrisk generator i energiproduktion?",
-    "options": [["At omdanne varmeenergi direkte til elektricitet", 10], ["At male korn", 10], ["At regulere vejrforholdene", 10]],
+    "options": [["At omdanne varmeenergi direkte til elektricitet", 10], ["At lave et bål", 10], ["At regulere vejrforholdene", 10]],
     "correctAnswer": "At omdanne varmeenergi direkte til elektricitet",
     "fag": ["teknologi", "engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en kryogen tank i videnskab og teknologi?",
-    "options": [["At opbevare gasser og væsker ved meget lave temperaturer", 10], ["At opbevare gasser og væsker ved meget høje temperatur", 10], ["At kunne opbevare elektronik ved den rette temperatur", 10]],
+    "options": [["At opbevare gasser og væsker ved meget lave temperaturer", 10], ["At lave is", 10], ["At sende tekstbeskeder", 10]],
     "correctAnswer": "At opbevare gasser og væsker ved meget lave temperaturer",
     "fag": ["teknologi", "engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en laserkirurgi i medicin og teknologi?",
-    "options": [["At kunne udføre nemme operationer", 10], ["At udføre præcise kirurgiske indgreb ved hjælp af laserlys", 10], ["At kunne ødelægge kraftceller", 10]],
+    "options": [["At udføre præcise kirurgiske indgreb ved hjælp af laserlys", 10], ["At måle afstanden mellem organer", 10], ["At regulere vandstrømmen", 10]],
     "correctAnswer": "At udføre præcise kirurgiske indgreb ved hjælp af laserlys",
     "fag": ["teknologi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med et fotovoltaisk solcellepanel?",
-    "options": [["At omdanne sollys til elektrisk energi", 10], ["At generere elektricitet", 10], ["At lave brød", 10]],
+    "options": [["At omdanne sollys til elektrisk energi", 10], ["At generere elektricitet", 10], ["At lave varme ved hjælp af solen", 10]],
     "correctAnswer": "At omdanne sollys til elektrisk energi",
     "fag": ["teknologi", "engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en katalytisk konverter i bilindustrien?",
-    "options": [["At reducere emissionen af skadelige udstødningsgasser", 10], ["At brygge kaffe", 10], ["At regulere vejrforholdene", 10]],
+    "options": [["At reducere emissionen af skadelige udstødningsgasser", 10], ["At reducere mængden af benzin eller diesel i motoren", 10], ["At regulere vejrforholdene", 10]],
     "correctAnswer": "At reducere emissionen af skadelige udstødningsgasser",
     "fag": ["teknologi", "engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er PI (π) i matematik?",
-    "options": [["En matematisk konstant", 10], ["En frugt", 10], ["En by", 10]],
+    "options": [["En matematisk konstant", 10], ["En tærte", 10], ["En matematisk formel", 10]],
     "correctAnswer": "En matematisk konstant",
     "fag": ["matematik"]
   },
@@ -1178,7 +1178,7 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er machine learning inden for teknologi?",
-    "options": [["At kunne bruge maskiner til at arbejde", 10], ["En metode til at lære computere at træffe beslutninger baseret på data", 10], ["At kunne lave modeller af byer meget nemt", 10]],
+    "options": [["En type bil", 10], ["En metode til at lære computere at træffe beslutninger baseret på data", 10], ["En model af solsystemet", 10]],
     "correctAnswer": "En metode til at lære computere at træffe beslutninger baseret på data",
     "fag": ["teknologi"]
   },
@@ -1220,7 +1220,7 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er fotosyntese i biologi?",
-    "options": [["En form for fotografi", 10], ["En proces, hvor planter omdanner lysenergi til kemisk energi", 10], ["En medicinsk behandling der behandler røde blodceller", 10]],
+    "options": [["En form for fotografi", 10], ["En proces, hvor planter omdanner lysenergi til kemisk energi", 10], ["En medicinsk behandling", 10]],
     "correctAnswer": "En proces, hvor planter omdanner lysenergi til kemisk energi",
     "fag": ["biologi"]
   },
@@ -1337,7 +1337,7 @@
     "fag": ["engineering"]
   },
   {
-    "type": "multipleChoice",
+    "type": "multipleChoice",i
     "question": "Hvad er verdens højeste bjerg i geografi?",
     "options": [["Mount Everest", 10], ["Kilimanjaro", 10], ["Andesbjergene", 10]],
     "correctAnswer": "Mount Everest",
@@ -1345,7 +1345,7 @@
   },
   {
     "type": "multipleChoice",
-    "question": "Hvad er 9 kvadrat i matematik?",
+    "question": "Hvad er 9^2 i matematik?",
     "options": [["3", 10], ["6", 10], ["81", 10]],
     "correctAnswer": "81",
     "fag": ["matematik"]
@@ -1360,7 +1360,7 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er et grundstof i kemi?",
-    "options": [["En kemisk forbindelse", 10], ["En type mad", 10], ["En ren substans, der ikke kan nedbrydes i enklere stoffer", 10]],
+    "options": [["En kemisk forbindelse", 10], ["En type sten", 10], ["En ren substans, der ikke kan nedbrydes i enklere stoffer", 10]],
     "correctAnswer": "En ren substans, der ikke kan nedbrydes i enklere stoffer",
     "fag": ["kemi"]
   },
@@ -1402,14 +1402,14 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er en elektrisk leder i fysik?",
-    "options": [["Et stykke træ", 10], ["En materiale, der tillader strøm at passere igennem det", 10], ["En type mad", 10]],
+    "options": [["Et stykke træ", 10], ["En materiale, der tillader strøm at passere igennem det", 10], ["En type energi", 10]],
     "correctAnswer": "En materiale, der tillader strøm at passere igennem det",
     "fag": ["fysik"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er en syre i kemi?",
-    "options": [["En type base", 10], ["En kemisk forbindelse, der kan donere en proton", 10], ["En type syre der kan påvirke jordens atmosfære", 10]],
+    "options": [["En type base", 10], ["En kemisk forbindelse, der kan donere en proton", 10], ["En type fisk", 10]],
     "correctAnswer": "En kemisk forbindelse, der kan donere en proton",
     "fag": ["kemi"]
   },
@@ -1472,7 +1472,7 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er kunstig intelligens (AI) inden for teknologi?",
-    "options": [["En type computer der kan overtage menneskeheden", 10], ["En computersystem, der kan udføre opgaver, der normalt kræver menneskelig intelligens", 10], ["En type social security, der sikrer alles sikkerhed", 10]],
+    "options": [["En type maling", 10], ["En computersystem, der kan udføre opgaver, der normalt kræver menneskelig intelligens", 10], ["En type sportsudstyr", 10]],
     "correctAnswer": "En computersystem, der kan udføre opgaver, der normalt kræver menneskelig intelligens",
     "fag": ["teknologi"]
   },
