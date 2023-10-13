@@ -1337,7 +1337,7 @@
     "fag": ["engineering"]
   },
   {
-    "type": "multipleChoice",i
+    "type": "multipleChoice",
     "question": "Hvad er verdens højeste bjerg i geografi?",
     "options": [["Mount Everest", 10], ["Kilimanjaro", 10], ["Andesbjergene", 10]],
     "correctAnswer": "Mount Everest",
