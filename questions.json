@@ -9,7 +9,7 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er det kemiske symbol for vand?",
-    "options": [["CO2", 10], ["H2O", 10], ["O2", 10]],
+    "options": [["CO2", 10], ["H2O", 10], ["O3", 10]],
     "correctAnswer": "H2O",
     "fag": ["kemi"]
   },
@@ -170,8 +170,8 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er den kemiske formel for oxygen?",
-    "options": [["O2", 10], ["H2O", 10], ["CO2", 10]],
-    "correctAnswer": "O2",
+    "options": [["O", 10], ["H2O", 10], ["CO2", 10]],
+    "correctAnswer": "O",
     "fag": ["kemi"]
   },
   {
@@ -254,7 +254,7 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er den kemiske formel for svovlsyre?",
-    "options": [["H2SO4", 10], ["CH4", 10], ["O2", 10]],
+    "options": [["H2SO4", 10], ["CH4", 10], ["CHO3", 10]],
     "correctAnswer": "H2SO4",
     "fag": ["kemi"]
   },
@@ -268,21 +268,21 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er den kemiske formel for sukker?",
-    "options": [["C12H22O11", 10], ["H2O", 10], ["CO2", 10]],
+    "options": [["C12H22O11", 10], ["CH4F", 10], ["C8H10N4O2", 10]],
     "correctAnswer": "C12H22O11",
     "fag": ["kemi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er den kemiske formel for ammoniak?",
-    "options": [["NH3", 10], ["O2", 10], ["CO2", 10]],
+    "options": [["NH3", 10], ["H2SO4", 10], ["Fe2O3", 10]],
     "correctAnswer": "NH3",
     "fag": ["kemi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er den kemiske formel for methan?",
-    "options": [["CH4", 10], ["H2O", 10], ["O2", 10]],
+    "options": [["CH4", 10], ["H2O2", 10], ["O2", 10]],
     "correctAnswer": "CH4",
     "fag": ["kemi"]
   },
@@ -296,7 +296,7 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er den kemiske formel for klorofyl?",
-    "options": [["C55H72MgN4O5", 10], ["H2O", 10], ["CO2", 10]],
+    "options": [["C55H72MgN4O5", 10], ["C14H10", 10], ["C18H34O2", 10]],
     "correctAnswer": "C55H72MgN4O5",
     "fag": ["kemi"]
   },
@@ -310,7 +310,7 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er hastigheden af lys i vakuum?",
-    "options": [["Cirka 299,792,458 meter pr. sekund", 10], ["Cirka 100,000 meter pr. sekund", 10], ["Cirka 1,000,000 meter pr. sekund", 10]],
+    "options": [["Cirka 299,792,458 meter pr. sekund", 10], ["Cirka 124,217,656 meter pr. sekund", 10], ["Cirka 1,000,000 meter pr. sekund", 10]],
     "correctAnswer": "Cirka 299,792,458 meter pr. sekund",
     "fag": ["fysik"]
   },
@@ -338,14 +338,14 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er den kemiske formel for calciumcarbonat, som findes i kalksten?",
-    "options": [["CaCO3", 10], ["H2O", 10], ["CO2", 10]],
+    "options": [["CaCO3", 10], ["C6H6", 10], ["HNO3", 10]],
     "correctAnswer": "CaCO3",
     "fag": ["kemi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er den kemiske formel for vandstoffluorid?",
-    "options": [["HF", 10], ["H2O", 10], ["CO2", 10]],
+    "options": [["HF", 10], ["C5H12", 10], ["HNO3", 10]],
     "correctAnswer": "HF",
     "fag": ["kemi"]
   },
@@ -366,7 +366,7 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er den kemiske formel for natriumhydroxid?",
-    "options": [["NaOH", 10], ["H2O", 10], ["CO2", 10]],
+    "options": [["NaOH", 10], ["CuSO4", 10], ["HNO3", 10]],
     "correctAnswer": "NaOH",
     "fag": ["kemi"]
   },
@@ -380,14 +380,14 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er den kemiske formel for natriumchlorid?",
-    "options": [["NaCl", 10], ["H2O", 10], ["CO2", 10]],
+    "options": [["NaCl", 10], ["C10H16O", 10], ["CaCO3", 10]],
     "correctAnswer": "NaCl",
     "fag": ["kemi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er den kemiske formel for svovlsyre?",
-    "options": [["H2SO4", 10], ["CH4", 10], ["O2", 10]],
+    "options": [["H2SO4", 10], ["C6H12O6", 10], ["C7H6O2", 10]],
     "correctAnswer": "H2SO4",
     "fag": ["kemi"]
   },
@@ -401,14 +401,14 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er den kemiske formel for sukker?",
-    "options": [["C12H22O11", 10], ["H2O", 10], ["CO2", 10]],
+    "options": [["C12H22O11", 10], ["C6H12O6", 10], ["C7H6O2", 10]],
     "correctAnswer": "C12H22O11",
     "fag": ["kemi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er den kemiske formel for ammoniak?",
-    "options": [["NH3", 10], ["O2", 10], ["CO2", 10]],
+    "options": [["NH3", 10], ["C7H8", 10], ["Fe3O4", 10]],
     "correctAnswer": "NH3",
     "fag": ["kemi"]
   },
@@ -443,7 +443,7 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er hastigheden af lys i vakuum?",
-    "options": [["Cirka 299,792,458 meter pr. sekund", 10], ["Cirka 100,000 meter pr. sekund", 10], ["Cirka 1,000,000 meter pr. sekund", 10]],
+    "options": [["Cirka 299,792,458 meter pr. sekund", 10], ["Cirka 134,778 meter pr. sekund", 10], ["Cirka 1,364,976 meter pr. sekund", 10]],
     "correctAnswer": "Cirka 299,792,458 meter pr. sekund",
     "fag": ["fysik"]
   },
@@ -478,14 +478,14 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er den kemiske formel for vandstoffluorid?",
-    "options": [["HF", 10], ["H2O", 10], ["CO2", 10]],
+    "options": [["HF", 10], ["C4H10", 10], ["H2SO4", 10]],
     "correctAnswer": "HF",
     "fag": ["kemi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er den kemiske formel for blydioxid?",
-    "options": [["PbO2", 10], ["H2O", 10], ["CO2", 10]],
+    "options": [["PbO2", 10], ["K2Cr2O7", 10], ["C2H5Cl", 10]],
     "correctAnswer": "PbO2",
     "fag": ["kemi"]
   },
@@ -499,7 +499,7 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er den kemiske formel for natriumhydroxid?",
-    "options": [["NaOH", 10], ["H2O", 10], ["CO2", 10]],
+    "options": [["NaOH", 10], ["C8H18", 10], ["FeCl3", 10]],
     "correctAnswer": "NaOH",
     "fag": ["kemi"]
   },
@@ -513,14 +513,14 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er den kemiske formel for natriumchlorid?",
-    "options": [["NaCl", 10], ["H2O", 10], ["CO2", 10]],
+    "options": [["NaCl", 10], ["C8H8", 10], ["C2H5OH", 10]],
     "correctAnswer": "NaCl",
     "fag": ["kemi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er den kemiske formel for svovlsyre?",
-    "options": [["H2SO4", 10], ["CH4", 10], ["O2", 10]],
+    "options": [["H2SO4", 10], ["C3H6O3", 10], ["C2H4O2", 10]],
     "correctAnswer": "H2SO4",
     "fag": ["kemi"]
   },
@@ -541,14 +541,14 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er den kemiske formel for ammoniak?",
-    "options": [["NH3", 10], ["O2", 10], ["CO2", 10]],
+    "options": [["NH3", 10], ["C11H15N", 10], ["KNO3", 10]],
     "correctAnswer": "NH3",
     "fag": ["kemi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er den kemiske formel for methan?",
-    "options": [["CH4", 10], ["H2O", 10], ["O2", 10]],
+    "options": [["CH4", 10], ["KNO3", 10], ["CH6", 10]],
     "correctAnswer": "CH4",
     "fag": ["kemi"]
   },
@@ -576,7 +576,7 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er hastigheden af lys i vakuum?",
-    "options": [["Cirka 299,792,458 meter pr. sekund", 10], ["Cirka 100,000 meter pr. sekund", 10], ["Cirka 1,000,000 meter pr. sekund", 10]],
+    "options": [["Cirka 299,792,458 meter pr. sekund", 10], ["Cirka 152,744 meter pr. sekund", 10], ["Cirka 1,745,564 meter pr. sekund", 10]],
     "correctAnswer": "Cirka 299,792,458 meter pr. sekund",
     "fag": ["fysik"]
   },
@@ -604,21 +604,21 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er den kemiske formel for calciumcarbonat, som findes i kalksten?",
-    "options": [["CaCO3", 10], ["H2O", 10], ["CO2", 10]],
+    "options": [["CaCO3", 10], ["C5H5N", 10], ["C3H6O", 10]],
     "correctAnswer": "CaCO3",
     "fag": ["kemi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er den kemiske formel for vandstoffluorid?",
-    "options": [["HF", 10], ["H2O", 10], ["CO2", 10]],
+    "options": [["HF", 10], ["Fe3O4", 10], ["C3H6O", 10]],
     "correctAnswer": "HF",
     "fag": ["kemi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er den kemiske formel for blydioxid?",
-    "options": [["PbO2", 10], ["H2O", 10], ["CO2", 10]],
+    "options": [["PbO2", 10], ["Fe3O4", 10], ["C7H8", 10]],
     "correctAnswer": "PbO2",
     "fag": ["kemi"]
   },
@@ -632,7 +632,7 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er den kemiske formel for natriumhydroxid?",
-    "options": [["NaOH", 10], ["H2O", 10], ["CO2", 10]],
+    "options": [["NaOH", 10], ["NaOH", 10], ["CH3COOH ", 10]],
     "correctAnswer": "NaOH",
     "fag": ["kemi"]
   },
@@ -674,14 +674,14 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med et solcellepanel?",
-    "options": [["At opvarme vand", 10], ["t omdanne sollys til elektrisk energi", 10], ["At filtrere vand", 10]],
+    "options": [["At opvarme vand", 10], ["t omdanne sollys til elektrisk energi", 10], ["At omdanne elektricitet til sollys", 10]],
     "correctAnswer": "At omdanne sollys til elektrisk energi",
     "fag": ["teknologi", "engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er en 3D-printer primært designet til?",
-    "options": [["At producere tredimensionelle objekter lag-for-lag", 10], ["At lave flade tegninger", 10], ["At tegne huse etage for etage", 10]],
+    "options": [["At producere tredimensionelle objekter lag-for-lag", 10], ["At lave flade tegninger og lave dem om til huse", 10], ["At tegne huse etage for etage", 10]],
     "correctAnswer": "At producere tredimensionelle objekter lag-for-lag",
     "fag": ["teknologi", "engineering"]
   },
@@ -702,14 +702,14 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er et almindeligt eksempel på en bionisk enhed?",
-    "options": [["En protese", 10], ["En smartphone", 10], ["En bil", 10]],
+    "options": [["En protese", 10], ["En journal", 10], ["ADP", 10]],
     "correctAnswer": "En protese",
     "fag": ["teknologi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med et elektronisk kontrolsystem i en bil?",
-    "options": [["At overvåge og styre forskellige aspekter af bilens ydeevne", 10], ["At afspille musik", 10], ["At brygge kaffe", 10]],
+    "options": [["At overvåge og styre forskellige aspekter af bilens ydeevne", 10], ["At kunne spille højere musik end alle andre", 10], ["At overvåge og svække forskellige aspekter af bilens ydeevne", 10]],
     "correctAnswer": "At overvåge og styre forskellige aspekter af bilens ydeevne",
     "fag": ["teknologi", "engineering"]
   },
@@ -765,28 +765,28 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med et geografisk informationssystem (GIS)?",
-    "options": [["At indsamle, analysere og visualisere geografiske data", 10], ["At sende e-mails", 10], ["At lave mad", 10]],
+    "options": [["At indsamle, analysere og visualisere geografiske data", 10], ["At analysere biologisk data", 10], ["At kunne gennemskue geografiske bellingshedsprocessor", 10]],
     "correctAnswer": "At indsamle, analysere og visualisere geografiske data",
     "fag": ["teknologi", "engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med et atomkraftværk?",
-    "options": [["At generere elektricitet ved at udnytte atomkerner", 10], ["At rense vand", 10], ["At bage brød", 10]],
+    "options": [["At generere elektricitet ved at udnytte atomkerner", 10], ["At generere atomkerner ved hjælp af elektricitet", 10], ["At kunne hjælpe befolkningen med nok mad", 10]],
     "correctAnswer": "At generere elektricitet ved at udnytte atomkerner",
     "fag": ["teknologi", "engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med et hydraulisk system?",
-    "options": [["At overføre kraft ved hjælp af væsketryk", 10], ["At skabe lys", 10], ["At lave te", 10]],
+    "options": [["At overføre kraft ved hjælp af væsketryk", 10], ["At svække væsetryk", 10], ["At kunne bevæge vand hurtigt for at varme det op", 10]],
     "correctAnswer": "At overføre kraft ved hjælp af væsketryk",
     "fag": ["engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en telekommunikationssatellit?",
-    "options": [["At sende og modtage data og signaler over lange afstande", 10], ["At lave smykker", 10], ["At rense luften", 10]],
+    "options": [["At sende og modtage data og signaler over lange afstande", 10], ["At kunne sende data over korte distancer", 10], ["At kunne fourene have for at dræbe invasive arter", 10]],
     "correctAnswer": "At sende og modtage data og signaler over lange afstande",
     "fag": ["teknologi", "engineering"]
   },
@@ -1031,63 +1031,63 @@
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en kunstig intelligens-algoritme?",
-    "options": [["At udføre komplekse opgaver ved hjælp af maskinlæring og beslutningstagning", 10], ["At designe nye biler", 10], ["At regulere vandstrømmen", 10]],
+    "options": [["At udføre komplekse opgaver ved hjælp af maskinlæring og beslutningstagning", 10], ["at kunne bruge AI til at designe nye biler som er billige", 10], ["At kunne få AI til at forsvinde", 10]],
     "correctAnswer": "At udføre komplekse opgaver ved hjælp af maskinlæring og beslutningstagning",
     "fag": ["teknologi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en geoteknisk undersøgelse i ingeniørarbejde?",
-    "options": [["At vurdere jordens egenskaber og stabilitet for bygningskonstruktioner", 10], ["At finde ud af hvilke sten der er under os", 10], ["At sende tekstbeskeder", 10]],
+    "options": [["At vurdere jordens egenskaber og stabilitet for bygningskonstruktioner", 10], ["At finde ud af hvilke sten der er under os", 10], ["At sende tekstbeskeder for at videregive informationer", 10]],
     "correctAnswer": "At vurdere jordens egenskaber og stabilitet for bygningskonstruktioner",
     "fag": ["engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en proteinanalyse i biologi og bioteknologi?",
-    "options": [["At identificere og karakterisere proteiner for forsknings- og diagnostiske formål", 10], ["At generere elektricitet", 10], ["At danne DNA", 10]],
+    "options": [["At identificere og karakterisere proteiner for forsknings- og diagnostiske formål", 10], ["At generere elektricitet ved hjælp af gensplejsning", 10], ["At danne DNA", 10]],
     "correctAnswer": "At identificere og karakterisere proteiner for forsknings- og diagnostiske formål",
     "fag": ["biologi", "teknologi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med et klimakontrolsystem i bygninger?",
-    "options": [["At regulere temperatur, fugtighed og ventilation for komfort og energieffektivitet", 10], ["At sørge for at mennesker arbejder", 10], ["At regulere vandstrømmen", 10]],
+    "options": [["At regulere temperatur, fugtighed og ventilation for komfort og energieffektivitet", 10], ["At sørge for at mennesker arbejder", 10], ["At regulere vandstrømmen i husene vandkamre", 10]],
     "correctAnswer": "At regulere temperatur, fugtighed og ventilation for komfort og energieffektivitet",
     "fag": ["engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en DNA-sekventering i bioteknologi og genetik?",
-    "options": [["At bestemme rækkefølgen af DNA-baser i en genetisk kode", 10], ["At lave hjemmesider", 10], ["At sende e-mails", 10]],
+    "options": [["At bestemme rækkefølgen af DNA-baser i en genetisk kode", 10], ["At kunne bruge genetisk kode til at generere elektricitet", 10], ["At kunne bruge bioteknologi som et nyttigt fag", 10]],
     "correctAnswer": "At bestemme rækkefølgen af DNA-baser i en genetisk kode",
     "fag": ["biologi", "teknologi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en termoelektrisk generator i energiproduktion?",
-    "options": [["At omdanne varmeenergi direkte til elektricitet", 10], ["At lave et bål", 10], ["At regulere vejrforholdene", 10]],
+    "options": [["At omdanne varmeenergi direkte til elektricitet", 10], ["At lave et bål med elektricitet", 10], ["At regulere varmefoholdene udenfor", 10]],
     "correctAnswer": "At omdanne varmeenergi direkte til elektricitet",
     "fag": ["teknologi", "engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en kryogen tank i videnskab og teknologi?",
-    "options": [["At opbevare gasser og væsker ved meget lave temperaturer", 10], ["At lave is", 10], ["At sende tekstbeskeder", 10]],
+    "options": [["At opbevare gasser og væsker ved meget lave temperaturer", 10], ["At kunne danne kulde nok til at mennesker kan overleve i 10.000 år", 10], ["At kunne sende mennesker til rummet via kulden som drivkraft", 10]],
     "correctAnswer": "At opbevare gasser og væsker ved meget lave temperaturer",
     "fag": ["teknologi", "engineering"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med en laserkirurgi i medicin og teknologi?",
-    "options": [["At udføre præcise kirurgiske indgreb ved hjælp af laserlys", 10], ["At måle afstanden mellem organer", 10], ["At regulere vandstrømmen", 10]],
+    "options": [["At udføre præcise kirurgiske indgreb ved hjælp af laserlys", 10], ["At måle afstanden mellem organer", 10], ["At kunne bruge laserlys til at arbejde mindre effektivt", 10]],
     "correctAnswer": "At udføre præcise kirurgiske indgreb ved hjælp af laserlys",
     "fag": ["teknologi"]
   },
   {
     "type": "multipleChoice",
     "question": "Hvad er formålet med et fotovoltaisk solcellepanel?",
-    "options": [["At omdanne sollys til elektrisk energi", 10], ["At generere elektricitet", 10], ["At lave varme ved hjælp af solen", 10]],
+    "options": [["At omdanne sollys til elektrisk energi", 10], ["At generere elektricitet via fotografier", 10], ["At lave varme ved hjælp af solen som drivkraft", 10]],
     "correctAnswer": "At omdanne sollys til elektrisk energi",
     "fag": ["teknologi", "engineering"]
   },
